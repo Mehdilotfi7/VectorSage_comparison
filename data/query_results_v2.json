@@ -1,0 +1,212 @@
+{
+  "results": [
+    {
+      "query": "Automated systems interpreting chest scans to identify infectious lung inflammation",
+      "category": "Terminology Gap",
+      "sources": {
+        "LitSense2": [
+          "Computer-aided diagnosis system versus conventional reading system in low-dose (< 2 mSv) computed tomography: comparative study for patients at risk of lung cancer.",
+          "Pneumonia classification: A limited data approach for global understanding.",
+          "Artificial intelligence and computer simulation models in critical illness."
+        ],
+        "PubMed": [],
+        "VectorSage": [
+          "Automatic definition of the central-chest lymph-node stations.",
+          "F-18 fluorodeoxyglucose chest uptake in lung inflammation and infection.",
+          "What did we learn from two decades of chest computed tomography in cystic fibrosis?"
+        ]
+      }
+    },
+    {
+      "query": "Population-scale simulations used to evaluate intervention policies during outbreaks",
+      "category": "Abstraction-Level Shift",
+      "sources": {
+        "LitSense2": [
+          "Use of Bluetooth contact tracing technology to model COVID-19 quarantine policies in high-risk closed populations.",
+          "Model refinement through high-performance computing: an agent-based HIV example.",
+          "Iterative data-driven forecasting of the transmission and management of SARS-CoV-2/COVID-19 using social interventions at the county-level."
+        ],
+        "PubMed": [
+          "Artificial Intelligence-Enabled Prediction of Heart Failure Risk From Single-Lead Electrocardiograms.",
+          "36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",
+          "Postpartum hemorrhage drills or simulations and adverse outcomes: a systematic review and Bayesian meta-analysis."
+        ],
+        "VectorSage": [
+          "Behavior Model Calibration for Epidemic Simulations.",
+          "Real-time decision-making during emergency disease outbreaks.",
+          "Decisions under uncertainty: a computational framework for quantification of policies addressing infectious disease epidemics."
+        ]
+      }
+    },
+    {
+      "query": "Linking vaccination uptake behavior with transmission dynamics to assess outbreak control",
+      "category": "Multi-Hop Concept Queries",
+      "sources": {
+        "LitSense2": [
+          "Predicting and analyzing the COVID-19 epidemic in China: Based on SEIRD, LSTM and GWR models.",
+          "Preparing for mpox resurgence: Surveillance lessons from outbreaks in Toronto, Canada.",
+          "Genomic-informed pathogen surveillance in Africa: opportunities and challenges."
+        ],
+        "PubMed": [],
+        "VectorSage": [
+          "Critical dynamics in population vaccinating behavior.",
+          "Impact of Public Health Responses During a Measles Outbreak in an Amish Community in Ohio: Modeling the Dynamics of Transmission.",
+          "Complex social contagion makes networks more vulnerable to disease outbreaks."
+        ]
+      }
+    },
+    {
+      "query": "Are FOLFIRINOX plus Bevacizumab the preferred therapy for left-sided RAS wild type advanced colorectal cancer with aggressive clinical presentation",
+      "category": "Clinical Treatment Query",
+      "sources": {
+        "LitSense2": [
+          "Cost-Effectiveness Analysis of First-Line FOLFIRI Combined With Cetuximab or Bevacizumab in Patients With RAS Wild-Type Left-Sided Metastatic Colorectal Cancer.",
+          "Modified FOLFOXIRI plus cetuximab versus bevacizumab in RAS wild-type metastatic colorectal cancer: a randomized phase II DEEPER trial.",
+          "Clinicians' Attitude to Doublet Plus Anti-EGFR Versus Triplet Plus Bevacizumab as First-line Treatment in Left-Sided RAS and BRAF Wild-Type Metastatic Colorectal Cancer Patients: A Multicenter, Real-Life, Case-Control Study."
+        ],
+        "PubMed": [],
+        "VectorSage": [
+          "FOLFOXIRI-Bevacizumab or FOLFOX-Panitumumab in Patients with Left-Sided RAS/BRAF Wild-Type Metastatic Colorectal Cancer: A Propensity Score-Based Analysis.",
+          "Treatment Patterns and Prognosis of Palliative Chemotherapy Combined With Targeting Agents in Patients With Unresectable Metastatic Colorectal Cancer: CHOICE, A Multicenter Longitudinal Observational Study.",
+          "FOLFOXIRI plus Bevacizumab Versus FOLFOX plus Panitumumab for Metastatic Left-Sided RAS/BRAF Wild-Type Colorectal Cancer: Which \"Side\" Are You On?"
+        ]
+      }
+    },
+    {
+      "query": "Methods estimating deaths caused by extreme heat events",
+      "category": "Lay-Language Clinical Description",
+      "sources": {
+        "LitSense2": [
+           "Real-time surveillance of heat-related morbidity: Relation to excess mortality associated with extreme heat.",
+           "Association of Extreme Heat and Cardiovascular Mortality in the United States: A County-Level Longitudinal Analysis From 2008 to 2017.",
+           "Excess Mortality Attributable to Extreme Heat in New York City, 1997-2013."],
+        "PubMed": [
+           "Exposure to Concurrent Heatwaves and Ozone Pollution and Associations with Mortality Risk: A Nationwide Study in China.",
+           "36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",
+           "Projections of heatwave-attributable mortality under climate change and future population scenarios in China."],
+        "VectorSage": [
+           "Excess Mortality Attributable to Extreme Heat in New York City, 1997-2013.",
+           "The impacts of extreme heat events on non-accidental, cardiovascular, and respiratory mortality: An analysis of 12 Canadian cities from 2000 to 2020.",
+           "Preparing for Extreme Heat Events: Practices in Identifying Mortality."
+        ]
+      }
+    },
+    {
+      "query": "End-to-end systems that clean hospital data, learn risk patterns, and generate real-time alerts.",
+      "category": "Pipeline / Workflow Queries",
+      "sources": {
+        "LitSense2": [
+           "Artificial intelligence-enabled electrocardiography from scientific research to clinical application.",
+           "A transformative framework reshaping sustainable drought risk management through advanced early warning systems.",
+           "A UAV Intelligent System for Greek Power Lines Monitoring."],
+        "PubMed": [],
+        "VectorSage": [
+           "Notification of real-time clinical alerts generated by pharmacy expert systems.",
+           "Enhancing clinical data retrieval with Smart Watchers: a NiFi-based ETL pipeline for Elasticsearch queries.",
+           "Frontline Nurse Feedback During the Development of a System to Track Cleaning of Portable Medical Equipment."
+        ]
+      }
+    },
+    {
+      "query": "Diagnostic AI designed to work in clinics with limited imaging equipment and unreliable internet.",
+      "category": "Resource-Constrained Setting Queries",
+      "sources": {
+        "LitSense2": [
+           "Integrated approaches to howler monkey (Alouatta spp.) medicine in professional care and conservation.",
+           "Systemic lupus in the era of machine learning medicine.",
+           "Barriers and facilitators to implementing imaging-based diagnostic artificial intelligence-assisted decision-making software in hospitals in China: a qualitative study using the updated Consolidated Framework for Implementation Research."],
+        "PubMed": [],
+        "VectorSage": [
+           "Impact of artificial intelligence on clinical radiography practice: Futuristic prospects in a low resource setting.",
+           "Use of Ultrasound in the Diagnostic Work-Up of Adult Intussusception - A Multicenter Retrospective Analysis.",
+           "Internet teleconferencing method for telepathology consultations from lung and heart transplant patients."
+        ]
+      }
+    },
+    {
+      "query": "Models maintaining diagnostic accuracy when applied to hospitals different from training sites.",
+      "category": "Robustness / Generalization Queries",
+      "sources": {
+        "LitSense2": [
+           "Explainable AI for post-hoc and pseudo-post-hoc predictive maintenance of governor valve actuators.",
+           "Analysis of Line and Tube Detection Performance of a Chest X-ray Deep Learning Model to Evaluate Hidden Stratification.",
+           "Innovative AI model for bladder cancer diagnosis."],
+        "PubMed": [
+           "Inter-site generalizability of EEG based age prediction algorithms in the preterm infant.",
+           "Fluid and White Matter Suppression contrasts MRI improves Deep Learning detection of Multiple Sclerosis Cortical Lesions."],
+        "VectorSage": [
+           "Training and quality assurance with the Structured Clinical Interview for DSM-IV (SCID-I/P).",
+           "Impact of different training strategies on the accuracy of a Bayesian network for predicting hospital admission.",
+           "The impact of training on diagnostic accuracy with computed tomography coronary angiography."
+        ]
+      }
+    },
+    {
+      "query": "Interactive outbreak dashboards allowing policymakers to explore intervention scenarios.",
+      "category": "Human–AI Interaction Queries",
+      "sources": {
+        "LitSense2": [
+           "Leveraging geographic information system for dengue surveillance: a scoping review.",
+           "Advancing knowledge, maps and tools to address obesity and related socio-economic disparities in Europe: the OBCT project.",
+           "Prevention Lab: a predictive model for estimating the impact of prevention interventions in a simulated Italian cohort."],
+        "PubMed": [],
+        "VectorSage": [
+           "Visualizing Infection Surveillance Data for Policymaking Using Open Source Dashboarding.",
+           "Making Evidence Actionable: Interactive Dashboards, Bayes, and Health Care Innovation.",
+           "Optimizing time-limited non-pharmaceutical interventions for COVID-19 outbreak control."
+        ]
+      }
+    },
+    {
+      "query": "Public-health simulations evaluating intervention strategies across socioeconomic strata.",
+      "category": "Ethical / Fairness-Aware Modeling Queries",
+      "sources": {
+        "LitSense2": [
+           "A prospective investigation of neighborhood socioeconomic deprivation and self-rated health in a large US cohort.",
+           "Scaling up malaria control in Zambia: progress and impact 2005-2008.",
+           "Antibiotic Resistance Awareness in Kosovo: Insights from the WHO Antibiotic Resistance: Multi-Country Public Awareness Survey."],
+        "PubMed": [
+           "Modeling ROI in chronic disease management: a simulation-based framework integrating patient adherence and policy timing.",
+           "Impact of front-of-pack nutrition labels on consumer purchasing intentions: a randomized experiment in low- and middle-income Mexican adults."],
+        "VectorSage": [
+           "The unequal society: descriptive evaluation of a community education project.",
+           "Socioeconomic status and health: a discussion of two paradigms.",
+           "Diarrhea no more: does zinc help the poor? Evidence on the effectiveness of programmatic efforts to reach poorest in delivering zinc and ORS at scale in UP and Gujarat, India."
+        ]
+      }
+    },
+    {
+      "query": "AI methods predicting hospital readmission as a proxy for treatment effectiveness.",
+      "category": "Indirect Outcome Queries",
+      "sources": {
+        "LitSense2": [
+           "Measurement Properties of the Oswestry Disability Index in Recipients of Lumbar Spine Surgery.",
+           "AI/ML driven prediction of COPD exacerbations and readmissions: a systematic review and meta-analysis.",
+           "ERS International Congress 2022: highlights from the Respiratory Clinical Care and Physiology Assembly."],
+        "PubMed": [
+           "Tuberculosis sanatorium treatment at the advent of the chemotherapy era"],
+        "VectorSage": [
+           "Readmission after surgery in Washington State rural hospitals.",
+           "Association between medication-related adverse events and non-elective readmission in acute ischemic stroke.",
+           "Prediction of readmission to acute psychiatric units."
+        ]
+      }
+    },
+    {
+      "query": "Computational approaches identifying optimal vaccination allocation under limited supply.",
+      "category": "Intervention Optimization Queries",
+      "sources": {
+        "LitSense2": [
+           "Learning from the COVID-19 pandemic: a systematic review of mathematical vaccine prioritization models.",
+           "Machine learning approaches to dissect hybrid and vaccine-induced immunity.",
+           "Learning from the COVID-19 pandemic: A systematic review of mathematical vaccine prioritization models."],
+        "PubMed": [],
+        "VectorSage": [
+           "Using Constrained Optimization for the Allocation of COVID-19 Vaccines in the Philippines.",
+           "Optimal allocation of limited vaccine to control an infectious disease: Simple analytical conditions.",
+           "Optimised prophylactic vaccination in metapopulations."
+        ]
+      }
+    }    
+  ]
+}

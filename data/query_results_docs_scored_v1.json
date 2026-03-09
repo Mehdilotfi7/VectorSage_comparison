@@ -1,0 +1,572 @@
+{
+  "results": [
+    {
+      "query_index": 0,
+      "query": "Automated systems interpreting chest scans to identify infectious lung inflammation",
+      "category": "Terminology Gap",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "GraphCovidNet: A graph neural network based model for detecting COVID-19 from CT scans and X-rays of chest.",
+            "cosine": 0.5447062253952026,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "A Systematic Literature Review to Determine Gaps in Diagnosing Suspected Infection in Solid Organ Transplant Recipients.",
+            "cosine": 0.34952402114868164,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Generative and Discriminative Learning for Lung X-Ray Analysis Based on Probabilistic Component Analysis.",
+            "cosine": 0.4920545220375061,
+            "label": "Weakly relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.009673140943050385,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Automatic definition of the central-chest lymph-node stations.",
+            "cosine": 0.4968896508216858,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "F-18 fluorodeoxyglucose chest uptake in lung inflammation and infection.",
+            "cosine": 0.4394928216934204,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "What did we learn from two decades of chest computed tomography in cystic fibrosis?",
+            "cosine": 0.4745995104312897,
+            "label": "Weakly relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 1,
+      "query": "Linking vaccination uptake behavior with transmission dynamics to assess outbreak control",
+      "category": "Multi-Hop Concept Queries",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Existence and stability of equilibria in infectious disease dynamics with behavioral feedback.",
+            "cosine": 0.5573665499687195,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Public health measures during an anticipated influenza pandemic: Factors influencing willingness to comply.",
+            "cosine": 0.4922042489051819,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Outbreak of COVID-19 and SARS in mainland China: a comparative study based on national surveillance data.",
+            "cosine": 0.4016515910625458,
+            "label": "Weakly relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.0667700245976448,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Critical dynamics in population vaccinating behavior.",
+            "cosine": 0.764467716217041,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Impact of Public Health Responses During a Measles Outbreak in an Amish Community in Ohio: Modeling the Dynamics of Transmission.",
+            "cosine": 0.6675220727920532,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Complex social contagion makes networks more vulnerable to disease outbreaks.",
+            "cosine": 0.5234746336936951,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 2,
+      "query": "Are FOLFIRINOX plus Bevacizumab the preferred therapy for left-sided RAS wild type advanced colorectal cancer with aggressive clinical presentation",
+      "category": "Clinical Treatment Query",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Gastrointestinal Cancer: 2022 ASCO Annual Meeting Highlights for the Advanced Practitioner.",
+            "cosine": 0.5498121976852417,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Modified FOLFOXIRI plus cetuximab versus bevacizumab in RAS wild-type metastatic colorectal cancer: a randomized phase II DEEPER trial.",
+            "cosine": 0.8289333581924438,
+            "label": "Relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": -0.027345001697540283,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "FOLFOXIRI-Bevacizumab or FOLFOX-Panitumumab in Patients with Left-Sided RAS/BRAF Wild-Type Metastatic Colorectal Cancer: A Propensity Score-Based Analysis.",
+            "cosine": 0.8747857213020325,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Treatment Patterns and Prognosis of Palliative Chemotherapy Combined With Targeting Agents in Patients With Unresectable Metastatic Colorectal Cancer: CHOICE, A Multicenter Longitudinal Observational Study.",
+            "cosine": 0.5976130366325378,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "FOLFOXIRI plus Bevacizumab Versus FOLFOX plus Panitumumab for Metastatic Left-Sided RAS/BRAF Wild-Type Colorectal Cancer: Which \"Side\" Are You On?",
+            "cosine": 0.9064894914627075,
+            "label": "Relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 3,
+      "query": "Methods estimating deaths caused by extreme heat events",
+      "category": "Lay-Language Clinical Description",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Excess Mortality Attributable to Extreme Heat in New York City, 1997-2013.",
+            "cosine": 0.8284600973129272,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Extreme Heat Exposure and Adolescent Cognitive Function.",
+            "cosine": 0.5440139174461365,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Hot weather and heat extremes: health risks.",
+            "cosine": 0.7212048768997192,
+            "label": "Relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "Exposure to Concurrent Heatwaves and Ozone Pollution and Associations with Mortality Risk: A Nationwide Study in China.",
+            "cosine": 0.5764604806900024,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "36th International Symposium on Intensive Care and Emergency Medicine : Brussels, Belgium. 15-18 March 2016.",
+            "cosine": 0.2577607035636902,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Projections of heatwave-attributable mortality under climate change and future population scenarios in China.",
+            "cosine": 0.6789503693580627,
+            "label": "Partially relevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Excess Mortality Attributable to Extreme Heat in New York City, 1997-2013.",
+            "cosine": 0.828460156917572,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "The impacts of extreme heat events on non-accidental, cardiovascular, and respiratory mortality: An analysis of 12 Canadian cities from 2000 to 2020.",
+            "cosine": 0.8130388855934143,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Preparing for Extreme Heat Events: Practices in Identifying Mortality.",
+            "cosine": 0.851788341999054,
+            "label": "Relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 4,
+      "query": "End-to-end systems that clean hospital data, learn risk patterns, and generate real-time alerts.",
+      "category": "Pipeline / Workflow Queries",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Artificial intelligence-enabled electrocardiography from scientific research to clinical application.",
+            "cosine": 0.31034407019615173,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "A UAV Intelligent System for Greek Power Lines Monitoring.",
+            "cosine": 0.18915659189224243,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "A transformative framework reshaping sustainable drought risk management through advanced early warning systems.",
+            "cosine": 0.15868735313415527,
+            "label": "Irrelevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.0731053277850151,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Notification of real-time clinical alerts generated by pharmacy expert systems.",
+            "cosine": 0.5858889818191528,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Enhancing clinical data retrieval with Smart Watchers: a NiFi-based ETL pipeline for Elasticsearch queries.",
+            "cosine": 0.5421925187110901,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Frontline Nurse Feedback During the Development of a System to Track Cleaning of Portable Medical Equipment.",
+            "cosine": 0.4856056571006775,
+            "label": "Weakly relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 5,
+      "query": "Diagnostic AI designed to work in clinics with limited imaging equipment and unreliable internet.",
+      "category": "Resource-Constrained Setting Queries",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "MFF-ClassificationNet: CNN-Transformer Hybrid with Multi-Feature Fusion for Breast Cancer Histopathology Classification.",
+            "cosine": 0.28705769777297974,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Evaluation of an artificial intelligence-based system for echocardiographic estimation of right atrial pressure.",
+            "cosine": 0.4405352473258972,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Systemic lupus in the era of machine learning medicine.",
+            "cosine": 0.3539116382598877,
+            "label": "Weakly relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.029727786779403687,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Impact of artificial intelligence on clinical radiography practice: Futuristic prospects in a low resource setting.",
+            "cosine": 0.7021333575248718,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Use of Ultrasound in the Diagnostic Work-Up of Adult Intussusception - A Multicenter Retrospective Analysis.",
+            "cosine": 0.1722661554813385,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Internet teleconferencing method for telepathology consultations from lung and heart transplant patients.",
+            "cosine": 0.3333769142627716,
+            "label": "Weakly relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 6,
+      "query": "Models maintaining diagnostic accuracy when applied to hospitals different from training sites.",
+      "category": "Robustness / Generalization Queries",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Raman spectroscopy: A prospective intraoperative visualization technique for gliomas.",
+            "cosine": 0.061766382306814194,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Prediction of Seronegative Hashimoto's thyroiditis using machine learning models based on ultrasound radiomics: a multicenter study.",
+            "cosine": 0.3314903974533081,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Tuberculosis Diagnostics and Localization in Chest X-Rays via Deep Learning Models.",
+            "cosine": 0.3189452886581421,
+            "label": "Weakly relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "Inter-site generalizability of EEG based age prediction algorithms in the preterm infant.",
+            "cosine": 0.21246691048145294,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Fluid and White Matter Suppression contrasts MRI improves Deep Learning detection of Multiple Sclerosis Cortical Lesions.",
+            "cosine": 0.115210622549057,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Training and quality assurance with the Structured Clinical Interview for DSM-IV (SCID-I/P).",
+            "cosine": 0.3520764708518982,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Impact of different training strategies on the accuracy of a Bayesian network for predicting hospital admission.",
+            "cosine": 0.644087553024292,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "The impact of training on diagnostic accuracy with computed tomography coronary angiography.",
+            "cosine": 0.5240057110786438,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 7,
+      "query": "Interactive outbreak dashboards allowing policymakers to explore intervention scenarios.",
+      "category": "Human–AI Interaction Queries",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Leveraging geographic information system for dengue surveillance: a scoping review.",
+            "cosine": 0.4592854082584381,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Advancing knowledge, maps and tools to address obesity and related socio-economic disparities in Europe: the OBCT project.",
+            "cosine": 0.32987499237060547,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Systems Modelling of the Socio-Technical Aspects of Residential Electricity Use and Network Peak Demand.",
+            "cosine": 0.16666315495967865,
+            "label": "Irrelevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.06728210300207138,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Visualizing Infection Surveillance Data for Policymaking Using Open Source Dashboarding.",
+            "cosine": 0.8232510089874268,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Making Evidence Actionable: Interactive Dashboards, Bayes, and Health Care Innovation.",
+            "cosine": 0.6062930822372437,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Optimizing time-limited non-pharmaceutical interventions for COVID-19 outbreak control.",
+            "cosine": 0.5538676977157593,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 8,
+      "query": "Public-health simulations evaluating intervention strategies across socioeconomic strata.",
+      "category": "Ethical / Fairness-Aware Modeling Queries",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "A prospective investigation of neighborhood socioeconomic deprivation and self-rated health in a large US cohort.",
+            "cosine": 0.5945180654525757,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Determinants of differences in RT-PCR testing rates among Southeast Asian countries during the first six months of the COVID-19 pandemic.",
+            "cosine": 0.20833982527256012,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Scaling up malaria control in Zambia: progress and impact 2005-2008.",
+            "cosine": 0.26973026990890503,
+            "label": "Weakly relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "Modeling ROI in chronic disease management: a simulation-based framework integrating patient adherence and policy timing.",
+            "cosine": 0.4989001750946045,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Impact of front-of-pack nutrition labels on consumer purchasing intentions: a randomized experiment in low- and middle-income Mexican adults.",
+            "cosine": 0.2754877507686615,
+            "label": "Weakly relevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "The unequal society: descriptive evaluation of a community education project.",
+            "cosine": 0.4967857599258423,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Socioeconomic status and health: a discussion of two paradigms.",
+            "cosine": 0.6251645088195801,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Diarrhea no more: does zinc help the poor? Evidence on the effectiveness of programmatic efforts to reach poorest in delivering zinc and ORS at scale in UP and Gujarat, India.",
+            "cosine": 0.3815922141075134,
+            "label": "Weakly relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 9,
+      "query": "Computational approaches identifying optimal vaccination allocation under limited supply.",
+      "category": "Intervention Optimization Queries",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Vaccines and variants: Modelling insights into emerging issues in COVID-19 epidemiology.",
+            "cosine": 0.5568647384643555,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Country- and age-specific optimal allocation of dengue vaccines.",
+            "cosine": 0.6447222232818604,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Dynamic Prioritization of COVID-19 Vaccines When Social Distancing is Limited for Essential Workers.",
+            "cosine": 0.5557782649993896,
+            "label": "Partially relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.03834338113665581,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Using Constrained Optimization for the Allocation of COVID-19 Vaccines in the Philippines.",
+            "cosine": 0.7357019186019897,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Optimal allocation of limited vaccine to control an infectious disease: Simple analytical conditions.",
+            "cosine": 0.8473813533782959,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Optimised prophylactic vaccination in metapopulations.",
+            "cosine": 0.6851962804794312,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    }
+  ]
+}
