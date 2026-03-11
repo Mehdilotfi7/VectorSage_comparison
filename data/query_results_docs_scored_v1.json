@@ -2,61 +2,6 @@
   "results": [
     {
       "query_index": 0,
-      "query": "Automated systems interpreting chest scans to identify infectious lung inflammation",
-      "category": "Terminology Gap",
-      "systems": {
-        "LitSense2": [
-          {
-            "doc_index": 0,
-            "title": "GraphCovidNet: A graph neural network based model for detecting COVID-19 from CT scans and X-rays of chest.",
-            "cosine": 0.5447062253952026,
-            "label": "Partially relevant"
-          },
-          {
-            "doc_index": 1,
-            "title": "A Systematic Literature Review to Determine Gaps in Diagnosing Suspected Infection in Solid Organ Transplant Recipients.",
-            "cosine": 0.34952402114868164,
-            "label": "Weakly relevant"
-          },
-          {
-            "doc_index": 2,
-            "title": "Generative and Discriminative Learning for Lung X-Ray Analysis Based on Probabilistic Component Analysis.",
-            "cosine": 0.4920545220375061,
-            "label": "Weakly relevant"
-          }
-        ],
-        "PubMed": [
-          {
-            "doc_index": 0,
-            "title": "",
-            "cosine": 0.009673140943050385,
-            "label": "Irrelevant"
-          }
-        ],
-        "VectorSage": [
-          {
-            "doc_index": 0,
-            "title": "Automatic definition of the central-chest lymph-node stations.",
-            "cosine": 0.4968896508216858,
-            "label": "Weakly relevant"
-          },
-          {
-            "doc_index": 1,
-            "title": "F-18 fluorodeoxyglucose chest uptake in lung inflammation and infection.",
-            "cosine": 0.4394928216934204,
-            "label": "Weakly relevant"
-          },
-          {
-            "doc_index": 2,
-            "title": "What did we learn from two decades of chest computed tomography in cystic fibrosis?",
-            "cosine": 0.4745995104312897,
-            "label": "Weakly relevant"
-          }
-        ]
-      }
-    },
-    {
-      "query_index": 1,
       "query": "Linking vaccination uptake behavior with transmission dynamics to assess outbreak control",
       "category": "Multi-Hop Concept Queries",
       "systems": {
@@ -111,7 +56,7 @@
       }
     },
     {
-      "query_index": 2,
+      "query_index": 1,
       "query": "Are FOLFIRINOX plus Bevacizumab the preferred therapy for left-sided RAS wild type advanced colorectal cancer with aggressive clinical presentation",
       "category": "Clinical Treatment Query",
       "systems": {
@@ -160,7 +105,7 @@
       }
     },
     {
-      "query_index": 3,
+      "query_index": 2,
       "query": "Methods estimating deaths caused by extreme heat events",
       "category": "Lay-Language Clinical Description",
       "systems": {
@@ -227,7 +172,7 @@
       }
     },
     {
-      "query_index": 4,
+      "query_index": 3,
       "query": "End-to-end systems that clean hospital data, learn risk patterns, and generate real-time alerts.",
       "category": "Pipeline / Workflow Queries",
       "systems": {
@@ -282,7 +227,7 @@
       }
     },
     {
-      "query_index": 5,
+      "query_index": 4,
       "query": "Diagnostic AI designed to work in clinics with limited imaging equipment and unreliable internet.",
       "category": "Resource-Constrained Setting Queries",
       "systems": {
@@ -337,7 +282,7 @@
       }
     },
     {
-      "query_index": 6,
+      "query_index": 5,
       "query": "Models maintaining diagnostic accuracy when applied to hospitals different from training sites.",
       "category": "Robustness / Generalization Queries",
       "systems": {
@@ -398,7 +343,7 @@
       }
     },
     {
-      "query_index": 7,
+      "query_index": 6,
       "query": "Interactive outbreak dashboards allowing policymakers to explore intervention scenarios.",
       "category": "Human–AI Interaction Queries",
       "systems": {
@@ -453,7 +398,7 @@
       }
     },
     {
-      "query_index": 8,
+      "query_index": 7,
       "query": "Public-health simulations evaluating intervention strategies across socioeconomic strata.",
       "category": "Ethical / Fairness-Aware Modeling Queries",
       "systems": {
@@ -514,7 +459,7 @@
       }
     },
     {
-      "query_index": 9,
+      "query_index": 8,
       "query": "Computational approaches identifying optimal vaccination allocation under limited supply.",
       "category": "Intervention Optimization Queries",
       "systems": {
@@ -563,6 +508,226 @@
             "doc_index": 2,
             "title": "Optimised prophylactic vaccination in metapopulations.",
             "cosine": 0.6851962804794312,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 9,
+      "query": "People whose immune system gradually destroys the cells in their own thyroid gland tend to feel constantly tired and gain weight unexpectedly",
+      "category": "Terminology Gap",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Genetic diversity of 21 experimental chicken lines with diverse origins and genetic backgrounds.",
+            "cosine": -0.03981431573629379,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Reactive natural kinds and varieties of dependence.",
+            "cosine": 0.11985786259174347,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Seasonal Affective Disorder: An Overview of Assessment and Treatment Approaches.",
+            "cosine": 0.22181957960128784,
+            "label": "Irrelevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": -0.00047799572348594666,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "The immune system which adversely alter thyroid functions: a review on the concept of autoimmunity.",
+            "cosine": 0.6836833357810974,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Thyroid function and obesity.",
+            "cosine": 0.6655346751213074,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "The Thymus: A Forgotten, But Very Important Organ.",
+            "cosine": 0.5056134462356567,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 10,
+      "query": "What makes some patients with the same tumor type respond well to checkpoint blockade while others do not benefit at all?",
+      "category": "Terminology Gap",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Non-Small Cell Lung Cancer Metastatic Without Oncogenic Alterations.",
+            "cosine": 0.3182010054588318,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "High-throughput single-sell sequencing in cancer research.",
+            "cosine": 0.2346857488155365,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Novel and potent MICA/B antibody is therapeutically effective in KRAS LKB1 mutant lung cancer models.",
+            "cosine": 0.3130722641944885,
+            "label": "Weakly relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": -0.04279915243387222,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "SCIB2, an antibody DNA vaccine encoding NY-ESO-1 epitopes, induces potent antitumor immunity which is further enhanced by checkpoint blockade.",
+            "cosine": 0.44062376022338867,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "The good, the bad, and the ugly: hyperprogression in cancer patients following immune checkpoint therapy.",
+            "cosine": 0.6791917681694031,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Predicting Responses to Checkpoint Inhibitors in Lymphoma: Are We Up to the Standards of Solid Tumors?",
+            "cosine": 0.6956342458724976,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 11,
+      "query": "Why do patients who initially respond to a targeted therapy eventually stop benefiting from it after several months of treatment?",
+      "category": "Terminology Gap",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Bone Microenvironment Changes in Latexin Expression Promote Chemoresistance. ",
+            "cosine": 0.049292366951704025,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Prognostic Assessment of Interim F18-Fluorodeoxyglucose Positron Emission Tomography in Esophageal Cancer Treated With Chemoradiation With or Without Surgery. ",
+            "cosine": 0.14708082377910614,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Recent developments and translational aspects in targeted therapy for metastatic breast cancer. ",
+            "cosine": 0.2943105399608612,
+            "label": "Weakly relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": -0.03115120716392994,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Novel patterns of response under immunotherapy.",
+            "cosine": 0.5367546081542969,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "After the Women's Health Initiative: Postmenopausal women's experiences with discontinuing estrogen replacement therapy.",
+            "cosine": 0.27841365337371826,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Correlates of basal insulin persistence among insulin-naïve people with type 2 diabetes: results from a multinational survey.",
+            "cosine": 0.18374763429164886,
+            "label": "Irrelevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 12,
+      "query": "How does having excess fat tissue alter the way the body handles sugar and increases risk of long-term complications?",
+      "category": "Terminology Gap",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "Fasting Mimicking Diet for Metabolic Syndrome: A Narrative Review of Human Studies. ",
+            "cosine": 0.3071821331977844,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Eating behavior patterns, metabolic parameters and circulating oxytocin levels in patients with obesity: an exploratory study.",
+            "cosine": 0.32329612970352173,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Does Samoa Have Adequate Policies to Reduce Obesity and Obesity-Related Disease? ",
+            "cosine": 0.3090851902961731,
+            "label": "Weakly relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": -0.03201865032315254,
+            "label": "Irrelevant"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Consequences of alcohol use in diabetics.",
+            "cosine": 0.39243531227111816,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Sex differences in the regulation of body weight.",
+            "cosine": 0.3682013750076294,
+            "label": "Weakly relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Mechanistically different effects of fat and sugar on insulin resistance, hypertension, and gut microbiota in rats.",
+            "cosine": 0.5375977754592896,
             "label": "Partially relevant"
           }
         ]

@@ -2,54 +2,66 @@
   "results": [
     {
       "query_index": 0,
-      "query": "Automated systems interpreting chest scans to identify infectious lung inflammation",
+      "query": "What makes some patients with the same tumor type respond well to checkpoint blockade while others do not benefit at all?",
       "category": "Terminology Gap",
       "systems": {
         "LitSense2": [
           {
             "doc_index": 0,
-            "title": "Anterior-posterior chest radiograph and computed tomography chest scan on February 25, 2020 (day 2 of hospitalization). A: Anterior-posterior chest radiograph; B: Computed tomography chest scan. Small amounts of abnormally dense shadows in both lungs, suggesting infectious pneumonia; chronic bronchitis with pulmonary emphysema; old left upper lung lesion; bilateral pleural hypertrophy and calcification; aortic atherosclerosis; and small cyst of the left liver.",
-            "cosine": 0.5126544237136841,
-            "label": "Partially relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 1,
-            "title": "Few studies have used CBIR as a diagnostic tool to interpret chest CT scans. Moreover, no dedicated CBIR system has yet been described for the evaluation of obstructive lung diseases. Oosawa et al. and Aisen et al. respectively, developed CBIR systems for various respiratory diseases including emphysema and other disease categories such as infectious diseases and pneumothorax. Although both studies included emphysema, the CBIR systems were not developed for the evaluation of obstructive lung diseases but rather to aid in the differential diagnosis of various respiratory diseases on chest CT. Moreover, the numbers of each disease in the databases and test cases were too small to evaluate the performance of CBIR. In addition, the criteria for assessing the visual similarities between query and retrieved CT scans were subjective and not precisely evaluated. A major challenge of CBIR as a diagnostic tool is identifying relevant and effective features and distance measures that match clinician requirements based on a particular application. Thus, CBIR research has aimed to reduce the semantic gap between image feature representation and human visual understanding to achieve better retrieval accuracy in terms of clinical relevance. In our study, by applying automated quantitative CT measures including emphysema, bronchial wall thickening and pulmonary vessels as features for CBIR, patients in obstructive lung diseases with similar phenotypes can be objectively identified in the database and easily visualized on our CBIR system.",
-            "cosine": 0.7084696292877197,
-            "label": "Relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 2,
-            "title": "The main limit of these results was that they referred to healthy lung and healthy chest wall. Efficient mechanical ventilation requires both the lung and the chest wall to be compliant. A variety of causes put patients in need of mechanical support. These include both infectious and non-infectious triggers that can injure the lung directly or indirectly due to local or systemic inflammation. The most common non-infectious causes (i.e., pancreatitis, aspiration of gastric contents, and severe traumatic injuries with shock and multiple transfusions) impact also the mechanics of the chest wall.",
-            "cosine": 0.3659153878688812,
-            "label": "Weakly relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "PubMed": [
           {
             "doc_index": 0,
             "title": "",
-            "cosine": 0.009673140943050385,
-            "label": "Irrelevant"
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "VectorSage": [
           {
             "doc_index": 0,
-            "title": "Lung cancer remains the leading cause of cancer death in the United States. Central to the lung-cancer diagnosis and staging process is the assessment of the central-chest lymph nodes. This assessment requires two steps: (1) examination of the lymph-node stations and identification of diagnostically important nodes in a three-dimensional (3D) multidetector computed tomography (MDCT) chest scan; (2) tissue sampling of the identified nodes. We describe a computer-based system for automatically defining the central-chest lymph-node stations in a 3D MDCT chest scan.\n\n\nMETHODS\nAutomated methods first construct a 3D chest model, consisting of the airway tree, aorta, pulmonary artery, and other anatomical structures. Subsequent automated analysis then defines the 3D regional nodal stations, as specified by the internationally standardized TNM lung-cancer staging system. This analysis involves extracting over 140 pertinent anatomical landmarks from structures contained in the 3D chest model. Next, the physician uses data mining tools within the system to interactively select diagnostically important lymph nodes contained in the regional nodal stations.\n\n\nRESULTS\nResults from a ground-truth database of unlabeled lymph nodes identified in 32 MDCT scans verify the system's performance. The system automatically defined 3D regional nodal stations that correctly labeled 96% of the database's lymph nodes, with 93% of the stations correctly labeling 100% of their constituent nodes.\n\n\nCONCLUSIONS\nThe system accurately defines the regional nodal stations in a given high-resolution 3D MDCT chest scan and eases a physician's burden for analyzing a given MDCT scan for lymph-node station assessment. It also shows potential as an aid for preplanning lung-cancer staging procedures.",
-            "cosine": 0.6039395928382874,
+            "title": "Checkpoint blockade has demonstrated promising antitumor responses in approximately 10-40% of patients. However, the majority of patients do not make a productive immune response to their tumors and do not respond to checkpoint blockade. These patients may benefit from an effective vaccine that stimulates high-avidity T cell responses in combination with checkpoint blockade. We have previously shown that incorporating TRP-2 and gp100 epitopes into the CDR regions of a human IgG1 DNA (ImmunoBody®: IB) results in significant tumor regression both in animal models and patients. This vaccination strategy is superior to others as it targets antigen to antigen-presenting cells and stimulates high-avidity T cell responses. To broaden the application of this vaccination strategy, 16 NY-ESO-1 epitopes, covering over 80% of HLA phenotypes, were incorporated into the IB (SCIB2). They produced higher frequency and avidity T cell responses than peptide vaccination. These T cells were of sufficient avidity to kill NY-ESO-1-expressing tumor cells, and in vivo controlled the growth of established B16-NY-ESO-1 tumors, resulting in long-term survival (35%). When SCIB2 was given in combination with Treg depletion, CTLA-4 blockade or PD-1 blockade, long-term survival from established tumors was significantly enhanced to 56, 67 and 100%, respectively. Translating these responses into the clinic by using a combination of SCIB2 vaccination and checkpoint blockade can only further improve clinical responses.",
+            "cosine": 0.612107515335083,
             "label": "Partially relevant"
           },
           {
             "doc_index": 1,
-            "title": "F-18 fluorodeoxyglucose (FDG) may accumulate at sites of inflammation or infection, making interpretation of whole-body scans difficult in patients with cancer.\n\n\nMETHODS\nMore than 650 whole-body positron emission tomographic (PET) scans performed to examine patients with cancer were reviewed to identify uptake in pulmonary infection or inflammation based on the appearance of F-18 FDG chest uptake, chest radiographs, computed tomography, or all of these.\n\n\nRESULTS\nTen patients had uptake in benign lung disease. Eight patients had head and neck tumors and two patients had breast cancer. Intense focal or multifocal F-18 FDG chest uptake was seen in 6 of 10 scans. This was difficult to distinguish from pulmonary metastases based on the scan appearance. However, in the remaining patients, the uptake was atypical for malignancy and displayed an apical, segmental, or lobar pattern. In all patients, the F-18 FDG lung uptake corresponded to benign radiologic changes (infiltration, consolidation, or atelectasis), and the final diagnosis was pulmonary inflammation or infection. Nine patients were asymptomatic and one patient had clinical aspiration pneumonia. Follow-up PET scans were performed in five patients to evaluate their conditions. Chest uptake disappeared completely in three patients and partially in two patients, and there were no new findings. Variable degrees of F-18 FDG chest uptake have been reported with more than 40 different benign causes. They can be classified based on the underlying mechanism into four major categories: 1) Inflammation or infection, 2) benign tumor, 3) physiologic activity, and 4) iatrogenic. Most of these false-positive cases are included in the first category.\n\n\nCONCLUSIONS\nPulmonary infection or inflammation might predispose patients to localized F-18 FDG chest uptake mimicking pulmonary metastases and limiting the specificity of whole-body scans performed in patients with cancer.",
-            "cosine": 0.47733598947525024,
-            "label": "Weakly relevant"
+            "title": "Immune checkpoint blockade therapy can elicit robust and durable responses in a variety of cancer types. While many patients do not respond, recent reports highlight a distinct group of patients whose tumors undergo rapid growth, leading to progressive disease and poor outcome. In this perspective, we synthesize and summarize some important issues surrounding hyperprogression, defining characteristics, prognostic implications, and controversies.",
+            "cosine": 0.6691231727600098,
+            "label": "Relevant"
           },
           {
             "doc_index": 2,
-            "title": "Despite our current treatment, many cystic fibrosis (CF) patients still show progressive bronchiectasis and small airways disease. Adequate detection and monitoring of progression of these structural abnormalities is needed to personalize treatment to the severity of CF lung disease of the patient. Chest computed tomography (CT) is the gold standard to diagnose and monitor bronchiectasis. Many studies have been done to validate the role of chest CT in CF and to improve the protocols. From these studies it became clear that for correct interpretation of the severity of bronchiectasis and small airways disease standardization of lung volume for the inspiratory and expiratory CT scan acquisition is needed. The risk related to the radiation exposure of a chest CT scan every second year is considered low. Automated and quantitative image analysis systems are developed to improve the reliability and sensitivity of assessments of structural lung changes in CF, particularly in early life. In this paper an overview is given of the lessons learned from two decades of monitoring CF lung disease using chest CT.",
-            "cosine": 0.5722651481628418,
+            "title": "Treatment of cancer has transformed with the introduction of checkpoint inhibitors. However, the majority of solid tumor patients do not respond to checkpoint blockade. In contrast, the response rate to programmed cell death 1 (PD-1) blockade in relapsed/refractory classical Hodgkin lymphoma (cHL) is 65% to 84% which is the highest among all cancers. Currently, checkpoint inhibitors are only approved for cHL and primary mediastinal B-cell lymphoma as the responses to single-agent checkpoint blockade in other hematologic malignancies is disappointingly low. Various established biomarkers such as programmed cell death 1 ligand 1 (PD-L1) protein surface expression, mismatch repair (MMR) status, and tumor mutational burden (TMB) are routinely used in clinical decision-making in solid tumors. In this review, we will explore these biomarkers in the context of hematologic malignancies. We review characteristic 9p24.1 structural alteration in cHL and primary mediastinal B-cell lymphoma (PMBCL) as a basis for response to PD-1 inhibition, as well as the role of antigen presentation pathways. We also explore the reported frequencies of MMR deficiency in various hematologic malignancies and investigate TMB as a predictive marker.",
+            "cosine": 0.648385763168335,
             "label": "Partially relevant"
           }
         ]
@@ -57,54 +69,66 @@
     },
     {
       "query_index": 1,
-      "query": "Linking vaccination uptake behavior with transmission dynamics to assess outbreak control",
-      "category": "Multi-Hop Concept Queries",
+      "query": "Can a sepsis detection algorithm trained before a major event, such as a pandemic, maintain its accuracy when patient mix and care pathways change afterwards?",
+      "category": "Robustness/Generalization",
       "systems": {
         "LitSense2": [
           {
             "doc_index": 0,
-            "title": "Multiple mathematical modeling analyses related to Ebola hemorrhagic fever have been undertaken to forecast peak incidence and size of outbreaks. They have evaluated shifts in disease transmission dynamics during epidemics, identified factors contributing to the recurrence and persistence of outbreaks, assessed the population-level impact of quarantine on disease transmission dynamics, estimated size and duration of outbreaks with and without vaccine use, assessed the role of sexual transmission in spread of infection during outbreaks, captured real-time disease dynamics in the midst of outbreaks, projected the short- and long-term course of outbreaks, evaluated the effectiveness of control measures (e.g., isolation of cases, safe burials, and social distancing) implemented to stop outbreaks, quantified the impact of vaccination on the spatiotemporal dynamics of disease transmission, evaluated vaccination of HCW, and evaluated the impact of vaccination on the course of Ebola epidemics.",
-            "cosine": 0.6078575849533081,
-            "label": "Partially relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 1,
-            "title": "However, if our objective was to minimise the total number of poultry culled, we found that vaccination was, unsurprisingly, preferred over ring culling in all instances (Fig 7). Incremental increases in vaccination radius size under each set of control capacity conditions were found to cause modest improvements with regard to this objective. Specifically, a 9km or 10km ring was optimal across all capacities and both transmission models. On the other hand, if conditions preclude the use of vaccination, pursuing a ring culling strategy in combination with this control objective results in the best performing action being either no culling beyond infected premises or a ring cull of 1km (Fig 7). Under wave 2 type transmission dynamics, high capacity ring culling results in the largest number of poultry culled, particularly when implemented at large radii (Fig 7A). For wave 5 transmission dynamics the opposite effect is seen (Fig 7C). The larger expected size of outbreaks under wave 5 type transmission dynamics (relative to wave 2 type transmission dynamics) means that low capacity ring culling proves insufficient to control the outbreak, resulting in a much larger number of poultry being culled than for higher capacities. For either wave 2 and wave 5 type transmission, increasing vaccine efficacy or decreasing the vaccine effectiveness delay led to modest reductions in the expected number of poultry culled per outbreak (Figures J-K in S1 Supporting Information).",
-            "cosine": 0.6568461656570435,
-            "label": "Partially relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 2,
-            "title": "Finally, the link between diphtheria emergence risk, vaccination coverage, and conflict are all likely to be confounded by other variables that were unmeasured and thus unavailable to be included in this analysis. Because the study period spanned the COVID-19 pandemic, which impacted childhood vaccine uptake, behavioral patterns affecting respiratory disease transmission, and conflict, the observational methods in this study are limited in their ability to assess the relative importance of each and whether any are causally related to diphtheria emergence. However, the combination of two trends is unsettling: childhood vaccine coverage remains lower than in pre-pandemic periods in many regions, and conflict events and the number of people in Africa internally displaced due to conflict has risen sharply in the past decade. Assuming a causal effect, further continuation of these trends raises concerns for additional diphtheria outbreaks.",
-            "cosine": 0.6454882621765137,
-            "label": "Partially relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "PubMed": [
           {
             "doc_index": 0,
             "title": "",
-            "cosine": 0.0667700245976448,
-            "label": "Irrelevant"
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "VectorSage": [
           {
             "doc_index": 0,
-            "title": "Vaccine refusal can lead to renewed outbreaks of previously eliminated diseases and even delay global eradication. Vaccinating decisions exemplify a complex, coupled system where vaccinating behavior and disease dynamics influence one another. Such systems often exhibit critical phenomena-special dynamics close to a tipping point leading to a new dynamical regime. For instance, critical slowing down (declining rate of recovery from small perturbations) may emerge as a tipping point is approached. Here, we collected and geocoded tweets about measles-mumps-rubella vaccine and classified their sentiment using machine-learning algorithms. We also extracted data on measles-related Google searches. We find critical slowing down in the data at the level of California and the United States in the years before and after the 2014-2015 Disneyland, California measles outbreak. Critical slowing down starts growing appreciably several years before the Disneyland outbreak as vaccine uptake declines and the population approaches the tipping point. However, due to the adaptive nature of coupled behavior-disease systems, the population responds to the outbreak by moving away from the tipping point, causing \"critical speeding up\" whereby resilience to perturbations increases. A mathematical model of measles transmission and vaccine sentiment predicts the same qualitative patterns in the neighborhood of a tipping point to greatly reduced vaccine uptake and large epidemics. These results support the hypothesis that population vaccinating behavior near the disease elimination threshold is a critical phenomenon. Developing new analytical tools to detect these patterns in digital social data might help us identify populations at heightened risk of widespread vaccine refusal.",
-            "cosine": 0.6208351254463196,
-            "label": "Partially relevant"
+            "title": "Sepsis remains a costly and prevalent syndrome in hospitals; however, machine learning systems can increase timely sepsis detection using electronic health records. This study validates a gradient boosted ensemble machine learning tool for sepsis detection and prediction, and compares its performance to existing methods.Retrospective data was drawn from databases at the University of California, San Francisco (UCSF) Medical Center and the Beth Israel Deaconess Medical Center (BIDMC). Adult patient encounters without sepsis on admission, and with at least one recording of each of six vital signs (SpO2, heart rate, respiratory rate, temperature, systolic and diastolic blood pressure) were included. We compared the performance of the machine learning algorithm (MLA) to that of commonly used scoring systems. Area under the receiver operating characteristic (AUROC) curve was our primary measure of accuracy. MLA performance was measured at sepsis onset, and at 24 and 48 h prior to sepsis onset.\n\n\n\nThe MLA achieved an AUROC of 0.88, 0.84, and 0.83 for sepsis onset and 24 and 48 h prior to onset, respectively. These values were superior to those of SIRS (0.66), MEWS (0.61), SOFA (0.72), and qSOFA (0.60) at time of onset. When trained on UCSF data and tested on BIDMC data, sepsis onset AUROC was 0.89.\n\n\n\nThe MLA predicts sepsis up to 48 h in advance and identifies sepsis onset more accurately than commonly used tools, maintaining high performance for sepsis detection when trained and tested on separate datasets.",
+            "cosine": 0.6996206045150757,
+            "label": "Relevant"
           },
           {
             "doc_index": 1,
-            "title": "We quantified measles transmissibility during a measles outbreak in Ohio in 2014 to evaluate the impact of public health responses. Case incidence and the serial interval (time between symptom onset in primary cases and secondary cases) were used to assess trends in the effective reproduction number R (the average number of secondary cases generated per case). A mathematical model was parameterized using early R values to determine the size and duration of the outbreak that would have occurred if containment measures had not been initiated, as well as the impact of vaccination. As containment started, we found a 4-fold decline in R (from approximately 4 to 1) over the course of 2 weeks and maintenance of R < 1 as control measures continued. Under a conservative scenario, the model estimated 8,472 cases (90% confidence interval (CI): 8,447, 8,489) over 195 days (90% CI: 179, 223) without control efforts and 715 cases (90% CI: 103, 1,338) over 128 days (90% CI: 117, 139) when vaccination was included; 7,757 fewer cases (90% CI: 7,130, 8,365) and 67 fewer outbreak days (90% CI: 48, 98) were attributed to vaccination. Vaccination may not account entirely for transmission reductions, suggesting that changes in community behavior (social distancing) and other control efforts (isolation, quarantining) are important. Our findings highlight the benefits of measles outbreak response and of understanding behavior change dynamics.",
-            "cosine": 0.7532365322113037,
+            "title": "Data drift can negatively impact the performance of machine learning algorithms (MLAs) that were trained on historical data. As such, MLAs should be continuously monitored and tuned to overcome the systematic changes that occur in the distribution of data. In this paper, we study the extent of data drift and provide insights about its characteristics for sepsis onset prediction. This study will help elucidate the nature of data drift for prediction of sepsis and similar diseases. This may aid with the development of more effective patient monitoring systems that can stratify risk for dynamic disease states in hospitals.e devise a series of simulations that measure the effects of data drift in patients with sepsis. We simulate multiple scenarios in which data drift may occur, namely the change in the distribution of the predictor variables (covariate shift), the change in the statistical relationship between the predictors and the target (concept shift), and the occurrence of a major healthcare event (major event) such as the COVID-19 pandemic. We measure the impact of data drift on model performances, identify the circumstances that necessitate model retraining, and compare the effects of different retraining methodologies and model architecture on the outcomes. We present the results for two different MLAs, eXtreme Gradient Boosting (XGB) and Recurrent Neural Network (RNN).\nOur results show that the properly retrained XGB models outperform the baseline models in all simulation scenarios, hence signifying the existence of data drift. In the major event scenario, the area under the receiver operating characteristic curve (AUROC) at the end of the simulation period is 0.811 for the baseline XGB model and 0.868 for the retrained XGB model. In the covariate shift scenario, the AUROC at the end of the simulation period for the baseline and retrained XGB models is 0.853 and 0.874 respectively. In the concept shift scenario and under the mixed labeling method, the retrained XGB models perform worse than the baseline model for most simulation steps. However, under the full relabeling method, the AUROC at the end of the simulation period for the baseline and retrained XGB models is 0.852 and 0.877 respectively. The results for the RNN models were mixed, suggesting that retraining based on a fixed network architecture may be inadequate for an RNN. We also present the results in the form of other performance metrics such as the ratio of observed to expected probabilities (calibration) and the normalized rate of positive predictive values (PPV) by prevalence, referred to as lift, at a sensitivity of 0.8.\nOur simulations reveal that retraining periods of a couple of months or using several thousand patients are likely to be adequate to monitor machine learning models that predict sepsis. This indicates that a machine learning system for sepsis prediction will probably need less infrastructure for performance monitoring and retraining compared to other applications in which data drift is more frequent and continuous. Our results also show that in the event of a concept shift, a full overhaul of the sepsis prediction model may be necessary because it indicates a discrete change in the definition of sepsis labels, and mixing the labels for the sake of incremental training may not produce the desired results.",
+            "cosine": 0.6831263899803162,
             "label": "Relevant"
           },
           {
             "doc_index": 2,
-            "title": "Social network analysis is now widely used to investigate the dynamics of infectious disease spread. Vaccination dramatically disrupts disease transmission on a contact network, and indeed, high vaccination rates can potentially halt disease transmission altogether. Here, we build on mounting evidence that health behaviors - such as vaccination, and refusal thereof - can spread across social networks through a process of complex contagion that requires social reinforcement. Using network simulations that model health behavior and infectious disease spread, we find that under otherwise identical conditions, the process by which the health behavior spreads has a very strong effect on disease outbreak dynamics. This dynamic variability results from differences in the topology within susceptible communities that arise during the health behavior spreading process, which in turn depends on the topology of the overall social network. Our findings point to the importance of health behavior spread in predicting and controlling disease outbreaks.",
-            "cosine": 0.6605737209320068,
+            "title": "Automated sepsis alerts in pediatric emergency departments (EDs) can identify patients at risk for sepsis, allowing for earlier intervention with appropriate therapies. The impact of the COVID-19 pandemic on the performance of pediatric sepsis alerts is unknown.We performed a retrospective cohort study of 59 335 ED visits before the pandemic and 51 990 ED visits during the pandemic in an ED with an automated sepsis alert based on systemic inflammatory response syndrome criteria. The sensitivity, specificity, negative predictive value, and positive predictive value of the sepsis algorithm were compared between the prepandemic and pandemic phases and between COVID-19-negative and COVID-19-positive patients during the pandemic phase. The proportion of ED visits triggering a sepsis alert was 7.0% (n = 4180) before and 6.1% (n = 3199) during the pandemic. The number of sepsis alerts triggered per diagnosed case of hypotensive septic shock was 24 in both periods. There was no difference in the sensitivity (74.1% vs 72.5%), specificity (93.2% vs 94.0%), positive predictive value (4.1% vs 4.1%), or negative predictive value (99.9% vs 99.9%) of the sepsis alerts between these periods. The alerts had a lower sensitivity (60% vs 73.3%) and specificity (87.3% vs 94.2%) for COVID-19-positive versus COVID-19-negative patients. The sepsis alert algorithm evaluated in this study did not result in excess notifications and maintained adequate performance during the COVID-19 pandemic in the pediatric ED setting.",
+            "cosine": 0.643875002861023,
             "label": "Partially relevant"
           }
         ]
@@ -112,54 +136,66 @@
     },
     {
       "query_index": 2,
-      "query": "Are FOLFIRINOX plus Bevacizumab the preferred therapy for left-sided RAS wild type advanced colorectal cancer with aggressive clinical presentation",
-      "category": "Clinical Treatment Query",
+      "query": "Can the composition of gut bacteria before starting immunotherapy predict whether a patient will respond to PD-1 blockade?",
+      "category": "Multi-Hop Concept",
       "systems": {
         "LitSense2": [
           {
             "doc_index": 0,
-            "title": "Core tip: FOLFOXIRI plus bevacizumab regimen might be a preferred option for the first-line treatment of only right-sided metastatic colorectal cancer (mCRC) regardless of RAS or BRAF status. However, subanalysis of a phase II trial of the triplet plus bevacizumab in patients with RAS mutant mCRC demonstrated that more patients with left-sided tumors achieved good tumor shrinkage and long duration of treatment than did patients with right-sided tumors, leading to higher rate of conversion to surgery in mCRC patients with left-sided tumors. Our data suggest that FOLFOXIRI plus bevacizumab may be a promising treatment for left-sided mCRC associated with RAS mutant tumors.",
-            "cosine": 0.8816267251968384,
-            "label": "Relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 1,
-            "title": "Cai et al. aimed to understand the clinical benefit of different regiments (double-drug or triple-drug) for left-sided RAS wild-type metastatic colorectal cancer patients. They performed a network meta-analysis by using the published data and real-world data, and concluded that a double-drug regimen plus cetuximab/panitumumab is more effective than double-drug- and triple-drug-based regimens with bevacizumab for left-sided RAS wild-type metastatic colorectal cancer. Besides, they claimed that the double-drug regimen plus cetuximab/panitumumab is safer than triple-drug regimen with bevacizumab via the safety analysis.",
-            "cosine": 0.7650181651115417,
-            "label": "Relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 2,
-            "title": "Introduction Primary tumor location, also commonly referred to as sidedness, is prognostic in all stages of colorectal cancer, with better outcomes for patients whose cancer arises from the left side. Sidedness is also predictive of anti-EGFR therapy benefit in the first-line treatment for patients with RAS/BRAF wild-type (WT) left-sided metastatic colorectal cancer (mCRC) whereas patients with right-sided RAS/BRAF WT mCRC should preferentially receive chemotherapy plus bevacizumab. These findings have been incorporated into treatment guidelines for patients with advanced colorectal cancer and are now the standard of care.",
-            "cosine": 0.7519053220748901,
-            "label": "Relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "PubMed": [
           {
             "doc_index": 0,
             "title": "",
-            "cosine": -0.027345001697540283,
-            "label": "Irrelevant"
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "VectorSage": [
           {
             "doc_index": 0,
-            "title": "Doublets plus anti-epidermal growth factor receptors (EGFRs) are the preferred upfront option for patients with left-sided RAS/BRAF wild-type metastatic colorectal cancer (mCRC). Initial therapy with FOLFOXIRI-bevacizumab is superior to doublets plus bevacizumab independently from primary tumor sidedness and RAS/BRAF status. No randomized comparison between FOLFOXIRI-bevacizumab versus doublets plus anti-EGFRs is available in left-sided RAS/BRAF wild-type mCRC.We selected patients with left-sided RAS and BRAF wild-type mCRC treated with first-line FOLFOX-panitumumab or FOLFOXIRI-bevacizumab in five randomized trials: Valentino, TRIBE, TRIBE2, STEAM, and CHARTA. A propensity score-based analysis was performed to compare FOLFOXIRI-bevacizumab with FOLFOX-panitumumab.\n\n\n\nA total of 185 patients received FOLFOX-panitumumab and 132 received FOLFOXIRI-bevacizumab. Median progression-free survival (PFS) and median overall survival (OS) were 13.3 and 33.1 months in the FOLFOXIRI-bevacizumab group compared with 11.4 and 30.3 months in the FOLFOX-panitumumab group (propensity score-adjusted hazard ratio (HR) for PFS, 0.82; 95% confidence interval (CI), 0.64-1.04; p = .11; propensity score-adjusted HR for OS, 0.80; 95% CI, 0.59-1.08; p = .14). No significant differences in overall response rate and disease control rate were observed. A statistically nonsignificant difference in favor of FOLFOXIRI-bevacizumab was observed for OS after secondary resection of metastases. Chemotherapy-related adverse events were more frequent in the FOLFOXIRI-bevacizumab group, with specific regard to grade 3 and 4 neutropenia (48% vs. 26%, adjusted p = .001).\n\n\n\nAlthough randomized comparison is lacking, both FOLFOXIRI-bevacizumab and FOLFOX-panitumumab are valuable treatment options in left-sided RAS/BRAF wild-type mCRC.\n\n\n\nA propensity score-based analysis of five trials was performed to compare FOLFOX-panitumumab versus FOLFOXIRI-bevacizumab in left-sided RAS/BRAF wild-type metastatic colorectal cancer (mCRC). No significant differences were observed, but FOLFOXIRI-bevacizumab achieved numerically superior survival outcomes versus FOLFOX-panitumumab. Chemotherapy-related adverse events were more frequent in the FOLFOXIRI-bevacizumab group. These observations suggest that although doublet chemotherapy plus anti-EGFRs remains the preferred treatment in patients with left-sided RAS/BRAF wild-type mCRC, FOLFOXIRI-bevacizumab is a valuable option able to provide similar, if not better, outcomes at the price of a moderate increase in toxicity and may be adopted based on patients' preference and potential impact on quality of life.",
-            "cosine": 0.8025290966033936,
+            "title": "Preclinical mouse models suggest that the gut microbiome modulates tumor response to checkpoint blockade immunotherapy; however, this has not been well-characterized in human cancer patients. Here we examined the oral and gut microbiome of melanoma patients undergoing anti-programmed cell death 1 protein (PD-1) immunotherapy (n = 112). Significant differences were observed in the diversity and composition of the patient gut microbiome of responders versus nonresponders. Analysis of patient fecal microbiome samples (n = 43, 30 responders, 13 nonresponders) showed significantly higher alpha diversity (P < 0.01) and relative abundance of bacteria of the Ruminococcaceae family (P < 0.01) in responding patients. Metagenomic studies revealed functional differences in gut bacteria in responders, including enrichment of anabolic pathways. Immune profiling suggested enhanced systemic and antitumor immunity in responding patients with a favorable gut microbiome as well as in germ-free mice receiving fecal transplants from responding patients. Together, these data have important implications for the treatment of melanoma patients with immune checkpoint inhibitors.",
+            "cosine": 0.7181965708732605,
             "label": "Relevant"
           },
           {
             "doc_index": 1,
-            "title": "This study investigated the treatment patterns and prognosis of patients with metastatic or unresectable colorectal cancer (mCRC) treated with chemotherapy with targeting agents.\n\n\nMETHODS\nThis longitudinal multicenter study included 963 patients with mCRC who were treated in Korea between 2016 and 2020. Treatment patterns and efficacy were compared according to the mutation status and clinical factors.\n\n\nRESULTS\nAs first-line therapy, most of the patients (83.5%) received FOLFOX plus bevacizumab (35.4%), followed by FOLFIRI plus bevacizumab (18.8%), FOLFIRI plus cetuximab (17.0%), and FOLFOX plus cetuximab (12.3%). Bevacizumab was the most frequent agent (78.8%) combined with chemotherapy in RAS-mutated CRC, while cetuximab (57.2%) in RAS wild-type CRC. Cetuximab was frequently combined with a doublet regimen in patients with left-sided CRC than in those with right-sided CRC (34.4% vs. 16%). As second-line therapy, most patients (63.4%) also received doublet regimens with bevacizumab, and FOLFIRI plus aflibercept was administered in 15.1%. The objective response rate with FOLFIRI plus cetuximab was significantly higher in patients with left-sided CRC than in those with right-sided CRC (59.2% vs. 30.8%, p=0.008) and marginally higher in patients with RAS wild-type CRC than in those with RAS-mutated CRC (55.6% vs. 0.0%, p=0.092). Progression-free survival (PFS) with FOLFOX plus bevacizumab was significantly shorter than that with FOLFIRI plus bevacizumab (p=0.030) in RAS-mutated CRC, whereas there were no significant differences between regimens in RAS wild-type CRC.\n\n\nCONCLUSIONS\nIn patients with unresectable metastatic colorectal cancer, doublet chemotherapy with targeting agents is the most common therapy and efficacy depends on the mutation status as well as clinical factors.",
-            "cosine": 0.7914258241653442,
+            "title": "The gut microbiota is a crucial regulator of anti-tumour immunity during immune checkpoint inhibitor therapy. Several bacteria that promote an anti-tumour response to immune checkpoint inhibitors have been identified in mice1-6. Moreover, transplantation of faecal specimens from responders can improve the efficacy of anti-PD-1 therapy in patients with melanoma7,8. However, the increased efficacy from faecal transplants is variable and how gut bacteria promote anti-tumour immunity remains unclear. Here we show that the gut microbiome downregulates PD-L2 expression and its binding partner repulsive guidance molecule b (RGMb) to promote anti-tumour immunity and identify bacterial species that mediate this effect. PD-L1 and PD-L2 share PD-1 as a binding partner, but PD-L2 can also bind RGMb. We demonstrate that blockade of PD-L2-RGMb interactions can overcome microbiome-dependent resistance to PD-1 pathway inhibitors. Antibody-mediated blockade of the PD-L2-RGMb pathway or conditional deletion of RGMb in T cells combined with an anti-PD-1 or anti-PD-L1 antibody promotes anti-tumour responses in multiple mouse tumour models that do not respond to anti-PD-1 or anti-PD-L1 alone (germ-free mice, antibiotic-treated mice and even mice colonized with stool samples from a patient who did not respond to treatment). These studies identify downregulation of the PD-L2-RGMb pathway as a specific mechanism by which the gut microbiota can promote responses to PD-1 checkpoint blockade. The results also define a potentially effective immunological strategy for treating patients who do not respond to PD-1 cancer immunotherapy.",
+            "cosine": 0.7499907612800598,
             "label": "Relevant"
           },
           {
             "doc_index": 2,
-            "title": "This commentary focuses on the results of the study by Pietrantonio et al., which evaluated the clinical conundrum of triplet versus doublet chemotherapy in combination with targeted therapy for metastatic left-sided RAS/BRAF wild-type colorectal cancer and appears in this issue. Both FOLFOXIRI [fluorouracil, leucovorin, oxaliplatin, and irinotecan] plus bevacizumab and FOLFOX [fluorouracil, leucovorin, and oxaliplatin] plus panitumumab have shown impressive activity in this population; however, the two have not been directly compared. The article by Pietrantonio et al. presents a propensity score-adjusted analysis using information from five previous randomized trials and provides best available evidence comparing these regimens. This commentary will discuss their results and how their findings fit in current treatment paradigms.",
-            "cosine": 0.8524470329284668,
+            "title": "Checkpoint-blockade immunotherapy targeting programmed cell death protein 1 (PD-1) has recently shown promising efficacy in hepatocellular carcinoma (HCC). However, the factors affecting and predicting the response to anti-PD-1 immunotherapy in HCC are still unclear. Herein, we report the dynamic variation characteristics and specificities of the gut microbiome during anti-PD-1 immunotherapy in HCC using metagenomic sequencing.Fecal samples from patients responding to immunotherapy showed higher taxa richness and more gene counts than those of non-responders. For dynamic analysis during anti-PD-1 immunotherapy, the dissimilarity of beta diversity became prominent across patients as early as Week 6. In non-responders, Proteobacteria increased from Week 3, and became predominant at Week 12. Twenty responder-enriched species, including Akkermansia muciniphila and Ruminococcaceae spp., were further identified. The related functional genes and metabolic pathway analysis, such as carbohydrate metabolism and methanogenesis, verified the potential bioactivities of responder-enriched species.\n\n\n\nGut microbiome may have a critical impact on the responses of HCC patients treated with anti-PD-1 immunotherapy. The dynamic variation characteristics of the gut microbiome may provide early predictions of the outcomes of immunotherapy in HCC, which is critical for disease-monitoring and treatment decision-making.",
+            "cosine": 0.6845102310180664,
             "label": "Relevant"
           }
         ]
@@ -167,6 +203,73 @@
     },
     {
       "query_index": 3,
+      "query": "What strategies reduce the risk of kidney damage in patients who need to receive large amounts of contrast dye for imaging?",
+      "category": "Clinical Treatment",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "For the practicing urologist, renal mass imaging is the most commonly utilized MRI application. Although high resolution CT imaging with conventional IV contrast is equivalent to contrasted MRI for renal lesions, many clinicians preferentially use contrasted MRI in patients with moderate or severe renal dysfunction and/or large kidney resections to minimize the risk of contrast-induced nephropathy. In patients with a GFR < 30 mL/min at high NSF risk after GBMCA administration, this approach will need to be changed. Patients on dialysis can simply undergo contrasted CT imaging, while pre-dialysis patients will require strategies that avoid any form of IV contrast. Association of gadolinium based magnetic resonance imaging contrast agents and nephrogenic systemic fibrosis. For the practicing urologist, renal mass imaging is the most commonly utilized MRI application. Although high resolution CT imaging with conventional IV contrast is equivalent to contrasted MRI for renal lesions, many clinicians preferentially use contrasted MRI in patients with moderate or severe renal dysfunction and/or large kidney resections to minimize the risk of contrast-induced nephropathy. In patients with a GFR < 30 mL/min at high NSF risk after GBMCA administration, this approach will need to be changed. Patients on dialysis can simply undergo contrasted CT imaging, while pre-dialysis patients will require strategies that avoid any form of IV contrast. We investigated the recently discovered association between gadolinium based magnetic resonance imaging contrast agents and the development of nephrogenic systemic fibrosis in patients with chronic kidney disease or acute kidney injury. A systematic review of the PubMed database and publicly available patient databases was performed to characterize nephrogenic systemic fibrosis and its possible association with exposure to gadolinium based magnetic resonance imaging contrast agents. Data from case series reports, nephrogenic systemic fibrosis patient databases, nephrogenic systemic fibrosis case reporting to the Food and Drug Administration after gadolinium contrast agent exposure and retrospective case control studies suggest a strong association between the use of gadolinium based magnetic resonance imaging contrast agents and the subsequent development of nephrogenic systemic fibrosis in patients with renal disease. These data also suggest that the risk of nephrogenic systemic fibrosis depends on the degree of renal dysfunction, dose of contrast agent, gadolinium contrast agent stability and severity of concomitant illness. Thus, the occurrence of nephrogenic systemic fibrosis after gadolinium contrast agent exposure may vary from negligible up to 2% to 5% in select high risk clinical situations. Magnetic resonance imaging using gadolinium based contrast agents must be performed judiciously in patients with renal dysfunction, carefully weighing on a case by case basis the benefits of magnetic resonance imaging and the risk of nephrogenic systemic fibrosis as well as the disadvantages of undergoing alternative or foregoing imaging studies.",
+            "cosine": 0.6088593602180481,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Immunosuppressants are not recommended for the treatment of early SS xerostomia due to the risk of immune disorders, tumor, liver, and kidney damage. Additional symptoms accompanying xerostomia, including appetite disorders and dental caries, can bring serious inconvenience to the patients' lives. Drinking large amounts of water to ease the dryness of the mouth may also increase the burden on the kidneys. Uncovering the molecular mechanism of Mume Fructus in treatment of Sjögren's syndrome. Immunosuppressants are not recommended for the treatment of early SS xerostomia due to the risk of immune disorders, tumor, liver, and kidney damage. Additional symptoms accompanying xerostomia, including appetite disorders and dental caries, can bring serious inconvenience to the patients' lives. Drinking large amounts of water to ease the dryness of the mouth may also increase the burden on the kidneys. Modern medicine has no cure for the xerostomia caused by the early onset of Sjögren's syndrome. Mume Fructus is a common Chinese herbal medicine used to relieve xerostomia. However, the molecular mechanisms of the effects of Mume Fructus are unknown. In this study, network pharmacology and molecular docking were used to investigate the mechanisms of action of Mume Fructus on Sjögren's syndrome. The Traditional Chinese Medicine Systems Pharmacology Database and Analysis Platform database was used to identify the active components and targets of Mume Fructus, and the UniProt database was used to identify the genes encoding these targets. SS-related targets were also identified from the GeneCards and OMIM databases. By finding the intersection of the targets of the compounds and the targets of Sjögren's syndrome, the predicted targets of Mume Fructus in the treatment of Sjögren's syndrome were obtained. Further investigation of the active compounds and their targets was carried out by constructing a network of \"medicine-candidate compound-target-disease\" using Cytoscape 3.7.2, the Protein-Protein Interaction network using the STRING database and Cytoscape 3.7.2, and key targets were identified by Gene Ontology and Kyoto Encyclopedia of Genes and Genomes enrichment analysis on R software. Finally, molecular docking was used to verify the affinity of the candidate compounds to the key targets. Quercetin, beta-sitosterol, and kaempferol in Mume Fructus interact with AKT1, IL-6, IL-1B, JUN, CASP3, and MAPK8. These results suggest that Mume Fructus exerts its therapeutic effects on the peripheral gland injury of Sjögren's syndrome and its secondary cardiovascular disease and tumorigenesis through anti-inflammatory, anti-oxidant, and anti-tumor pathways. With network pharmacology, this study systematically identified the main active components, targets, and specific mechanisms of the therapeutic effects of Mume Fructus on Sjögren's syndrome, providing both a theoretical basis and research direction for further investigations on Mume Fructus.",
+            "cosine": 0.07008912414312363,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Characteristics of patients stratified by baseline renal function and contrast exposure We evaluated differences in baseline characteristics between those who received contrast for vascular imaging and those who did not and stratified by baseline renal function (Table 2). We found that in the 1447 patients without baseline kidney disease, 204 (14%) received dye. Patients without baseline kidney disease who received dye were younger, had less hypertension, were more commonly current smokers, and were more likely to be male compared with those without baseline kidney disease who did not receive IV dye. In the 853 patients with baseline kidney disease, 79 (9%) received contrast. Patients with baseline kidney disease who received contrast were younger, but no other characteristics were significantly different between those receiving dye versus not receiving dye. Association Between Acute Kidney Disease and Intravenous Dye Administration in Patients With Acute Stroke: A Population-Based Study. Characteristics of patients stratified by baseline renal function and contrast exposure We evaluated differences in baseline characteristics between those who received contrast for vascular imaging and those who did not and stratified by baseline renal function (Table 2). We found that in the 1447 patients without baseline kidney disease, 204 (14%) received dye. Patients without baseline kidney disease who received dye were younger, had less hypertension, were more commonly current smokers, and were more likely to be male compared with those without baseline kidney disease who did not receive IV dye. In the 853 patients with baseline kidney disease, 79 (9%) received contrast. Patients with baseline kidney disease who received contrast were younger, but no other characteristics were significantly different between those receiving dye versus not receiving dye. Computed tomographic angiography and conventional angiography provide timely vascular anatomic information in patients with stroke. However, iodinated contrast dye may cause acute kidney injury (AKI). Within a large, biracial population, we examined in-hospital incidence of new or worsening kidney disease in patients with stroke and its association with administration of intravenous dye. All adult residents of the Greater Cincinnati/Northern Kentucky region with acute ischemic stroke or intracerebral hemorrhage who presented to an emergency department in 2010 were included. Prevalence of unsuspected kidney disease at the time of emergency department presentation and the incidence of AKI after admission in 2 groups of patients-those who did and those who did not receive intravenous dye-were determined. In 2010, 2299 patients met inclusion criteria (89% ischemic stroke and 11% intracerebral hemorrhage); mean age 69 years (SD 15), 22% black, and 54% women. Among these patients, 37% had kidney disease at baseline, including 22% (516/2299) in whom this was unsuspected. Two percent (2%; 15/853) of patients with baseline kidney disease developed AKI during the hospital stay. Of those with no baseline kidney disease, 1% (14/14 467) developed AKI. There was no association between dye administration and new or worsening kidney disease. Although 22% of patients in the Greater Cincinnati/Northern Kentucky stroke population had unsuspected kidney disease, the incidence of new or worsening kidney disease was low, and AKI was not associated with dye administration. These findings confirm single-center reports that the risk of severe renal complications after contrast dye is small.",
+            "cosine": 0.7201467752456665,
+            "label": "Relevant"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Contrast-enhanced ultrasound imaging is a radiation-free diagnostic tool that uses biocompatible ultrasound contrast agents (UCAs) to improve image clarity. UCAs, which do not contain dye, often salvage \"technically difficult\" ultrasound scans, increasing the accuracy and reliability of a front-line ultrasound diagnosis, reducing unnecessary downstream testing, lowering overall health care costs, changing therapy, and improving patient care. Two UCAs currently are approved and regulated by the US Food and Drug Administration. They have favorable safety profiles and risk/benefit ratios in adult and pediatric populations, including compromised patients with severe cardiovascular diseases. Nevertheless, these UCAs are contraindicated in patients with known or suspected right-to-left, bidirectional, or transient right-to-left cardiac shunts. These patients, who constitute 10% to 35% of the general population, typically receive no UCAs when they undergo echocardiography. If their echocardiographic images are suboptimal, they may receive inappropriate diagnosis and treatment, or they may be referred for additional diagnostic testing, including radiation-based procedures that increase their lifetime risk for cancer or procedures that use contrast agents containing dye, which may increase the risk for kidney damage. An exhaustive review of current peer-reviewed research demonstrated no scientific basis for the UCA contraindication in patients with known or suspected cardiac shunts. Initial safety concerns were based on limited rodent data and speculation related to macroaggregated albumin microspheres, a radioactive nuclear imaging agent with different physical and chemical properties and no relation to UCAs. Radioactive macroaggregated albumin is not contraindicated in adult or pediatric patients with cardiac shunts and is routinely used in these populations. In conclusion, the International Contrast Ultrasound Society Board recommends removal of the contraindication to further the public interest in safe, reliable, radiation-free diagnostic imaging options for patients with known or suspected cardiac shunts and to reduce their need for unnecessary downstream testing.",
+            "cosine": 0.5698705911636353,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "Computed tomographic angiography and conventional angiography provide timely vascular anatomic information in patients with stroke. However, iodinated contrast dye may cause acute kidney injury (AKI). Within a large, biracial population, we examined in-hospital incidence of new or worsening kidney disease in patients with stroke and its association with administration of intravenous dye.All adult residents of the Greater Cincinnati/Northern Kentucky region with acute ischemic stroke or intracerebral hemorrhage who presented to an emergency department in 2010 were included. Prevalence of unsuspected kidney disease at the time of emergency department presentation and the incidence of AKI after admission in 2 groups of patients-those who did and those who did not receive intravenous dye-were determined.\n\n\n\nIn 2010, 2299 patients met inclusion criteria (89% ischemic stroke and 11% intracerebral hemorrhage); mean age 69 years (SD 15), 22% black, and 54% women. Among these patients, 37% had kidney disease at baseline, including 22% (516/2299) in whom this was unsuspected. Two percent (2%; 15/853) of patients with baseline kidney disease developed AKI during the hospital stay. Of those with no baseline kidney disease, 1% (14/14 467) developed AKI. There was no association between dye administration and new or worsening kidney disease.\n\n\n\nAlthough 22% of patients in the Greater Cincinnati/Northern Kentucky stroke population had unsuspected kidney disease, the incidence of new or worsening kidney disease was low, and AKI was not associated with dye administration. These findings confirm single-center reports that the risk of severe renal complications after contrast dye is small.",
+            "cosine": 0.7043986320495605,
+            "label": "Relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "Transplant renal artery stenosis (TRAS), the most common vascular complication of kidney transplantation, can lead to heart failure, uncontrolled hypertension, and irreversible dysfunction of the transplanted kidney. Percutaneous revascularization can improve outcomes in well-selected patients with symptomatic TRAS, but the intervention itself poses risk to the transplanted kidney because of the quantities of nephrotoxic contrast solution that often are used. We report the case of a patient with TRAS who, 5 months after undergoing a kidney transplant, developed allograft dysfunction and heart failure that required hemodialysis. We performed angioplasty and stenting of the TRAS, using intravascular ultrasonography and fluoroscopy as our primary imaging methods. To minimize further damage to a potentially viable kidney, the volume of intravascular contrast medium used was trivial (a total of 9 cc). Revascularization of the patient's TRAS restored his renal function: within 4 weeks of the procedure, he no longer needed hemodialysis, and his heart failure symptoms had resolved. This case emphasizes the value of early definitive treatment of TRAS and the usefulness of intravascular ultrasonography to minimize the amount of contrast medium used in endovascular procedures.",
+            "cosine": 0.49103426933288574,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 4,
       "query": "Methods estimating deaths caused by extreme heat events",
       "category": "Lay-Language Clinical Description",
       "systems": {
@@ -174,7 +277,7 @@
           {
             "doc_index": 0,
             "title": "Excess Mortality Attributable to Extreme Heat in New York City, 1997-2013. Extreme heat event excess mortality has been estimated statistically to assess impacts, evaluate heat emergency response, and project climate change risks. We estimated annual excess non-external-cause deaths associated with extreme heat events in New York City (NYC). Extreme heat events were defined as days meeting current National Weather Service forecast criteria for issuing heat advisories in NYC based on observed maximum daily heat index values from LaGuardia Airport. Outcomes were daily non-external-cause death counts for NYC residents from May through September from 1997 to 2013 (n = 337,162). The cumulative relative risk (CRR) of death associated with extreme heat events was estimated in a Poisson time-series model for each year using an unconstrained distributed lag for days 0-3 accommodating over dispersion, and adjusting for within-season trends and day of week. Attributable death counts were computed by year based on individual year CRRs. The pooled CRR per extreme heat event day was 1.11 (95%CI 1.08-1.14). The estimated annual excess non-external-cause deaths attributable to heat waves ranged from -14 to 358, with a median of 121. Point estimates of heat wave-attributable deaths were greater than 0 in all years but one and were correlated with the number of heat wave days (r = 0.81). Average excess non-external-cause deaths associated with extreme heat events were nearly 11-fold greater than hyperthermia deaths. Estimated extreme heat event-associated excess deaths may be a useful indicator of the impact of extreme heat events, but single-year estimates are currently too imprecise to identify short-term changes in risk.",
-            "cosine": 0.7809772491455078,
+            "cosine": 0.7809771299362183,
             "label": "Relevant"
           },
           {
@@ -202,251 +305,232 @@
             "title": "In China, most previous projections of heat-related mortality have been based on modeling studies using global climate models (GCMs), which can help to elucidate the risks of extreme heat events in a changing climate. However, spatiotemporal changes in the health effects of climate change considering specific regional characteristics remain poorly understood. We aimed to use credible climate and population projections to estimate future heatwave-attributable deaths under different emission scenarios and to explore the drivers underlying these patterns of changes. We derived climate data from a regional climate model driven by three CMIP5 GCM models and calculated future heatwaves in China under Representative Concentration Pathway (RCP) 2.6, RCP4.5, and RCP8.5. The future gridded population data were based on Shared Socioeconomic Pathway 2 assumption with different fertility rates. By applying climate zone-specific exposure-response functions to mortality during heatwave events, we projected the scale of heatwave-attributable deaths under each RCP scenario. We further analyzed the factors driving changes in heatwave-related deaths and main sources of uncertainty using a decomposition method. We compared differences in death burden under the 1.5°C target, which is closely related to achieving carbon neutrality by mid-century. The number of heatwave-related deaths will increase continuously to the mid-century even under RCP2.6 and RCP4.5 scenarios, and will continue increasing throughout the century under RCP8.5. There will be 20,303 deaths caused by heatwaves in 2090 under RCP2.6, 35,025 under RCP4.5, and 72,260 under RCP8.5, with half of all heatwave-related deaths in any scenario concentrated in east and central China. Climate effects are the main driver for the increase in attributable deaths in the near future till 2060, explaining 78% of the total change. Subsequent population decline cannot offset the losses caused by higher incidence of heatwaves and an aging population under RCP8.5. Although health loss under the 1.5°C warming scenario is 1.6-fold higher than the baseline period 1986-2005, limiting the temperature rise to 1.5°C can reduce the annual mortality burden in China by 3,534 deaths in 2090 compared with RCP2.6 scenarios. With accelerating climate change and population aging, the effects of future heatwaves on human health in China are likely to increase continuously even under a low emission scenario. Significant health benefits are expected if the optimistic 1.5°C goal is achieved, suggesting that carbon neutrality by mid-century is a critical target for China's sustainable development. Policymakers need to tighten climate mitigation policies tailored to local conditions while enhancing climate resilience technically and infrastructurally, especially for vulnerable elderly people. National Key R&D Program of China (2018YFA0606200), Wellcome Trust (209734/Z/17/Z), Natural Science Foundation of China (41790471), and Guangdong Major Project of Basic and Applied Basic Research (2020B0301030004).",
             "cosine": 0.603068470954895,
             "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "VectorSage": [
           {
             "doc_index": 0,
             "title": "Extreme heat event excess mortality has been estimated statistically to assess impacts, evaluate heat emergency response, and project climate change risks. We estimated annual excess non-external-cause deaths associated with extreme heat events in New York City (NYC). Extreme heat events were defined as days meeting current National Weather Service forecast criteria for issuing heat advisories in NYC based on observed maximum daily heat index values from LaGuardia Airport. Outcomes were daily non-external-cause death counts for NYC residents from May through September from 1997 to 2013 (n = 337,162). The cumulative relative risk (CRR) of death associated with extreme heat events was estimated in a Poisson time-series model for each year using an unconstrained distributed lag for days 0-3 accommodating over dispersion, and adjusting for within-season trends and day of week. Attributable death counts were computed by year based on individual year CRRs. The pooled CRR per extreme heat event day was 1.11 (95%CI 1.08-1.14). The estimated annual excess non-external-cause deaths attributable to heat waves ranged from -14 to 358, with a median of 121. Point estimates of heat wave-attributable deaths were greater than 0 in all years but one and were correlated with the number of heat wave days (r = 0.81). Average excess non-external-cause deaths associated with extreme heat events were nearly 11-fold greater than hyperthermia deaths. Estimated extreme heat event-associated excess deaths may be a useful indicator of the impact of extreme heat events, but single-year estimates are currently too imprecise to identify short-term changes in risk.",
-            "cosine": 0.7817100286483765,
+            "cosine": 0.7817099690437317,
             "label": "Relevant"
           },
           {
             "doc_index": 1,
             "title": "Extreme heat has significant impacts on mortality. In Canada, past research has analyzed the degree to which non-accidental mortality increases during single extreme heat events; however, few studies have considered multiple causes of death and the impacts of extreme heat events on mortality over longer time periods.Daily death counts attributable to non-accidental, cardiovascular, and respiratory causes were retrieved for the 12 most populous cities in Canada from 2000 to 2020. Generalized additive models were applied to quantify daily mortality risks for people aged younger than 65 years and for those aged 65 years and older in each city and for each cause of death. Model results were used to calculate the change in mortality risks and the number of excess deaths attributable to extreme heat during extreme heat events.\n\n\n\nElevated mortality risks were observed during extreme heat events in most cities for non-accidental and respiratory causes. The impacts of extreme heat on non-accidental mortality were typically greater for people aged 65 and older than for those aged younger than 65. Significantly higher non-accidental mortality risks were observed during extreme heat events for people aged 65 and older in Montréal, the city of Québec, Surrey, and Toronto. For cardiovascular and respiratory causes, people aged 65 and older had significantly higher mortality risks during extreme heat events in Montréal, and both Montréal and Toronto, respectively. In the 12 cities, approximately 670 excess non-accidental deaths, 115 excess cardiovascular deaths, and 115 excess respiratory deaths were attributable to extreme heat events during the study period. Mortality risks during extreme heat events were generally higher in cities with larger proportions of renter households and fewer extreme heat events.\n\n\n\nThis study estimates the longer-term impacts of extreme heat events on three mortality outcomes in a set of large Canadian cities. As climate change causes more frequent and intense extreme heat events, and as policy makers aim to reduce the health impacts of heat, it is important to understand how and where extreme heat affects health.",
-            "cosine": 0.7547914385795593,
+            "cosine": 0.7547915577888489,
             "label": "Relevant"
           },
           {
             "doc_index": 2,
             "title": "Climate change is increasing the frequency and severity of extreme heat events. These events affect cities in increasingly abrupt and catastrophic ways; yet, many of the deaths caused by exposure to heat have gone unnoticed or are inaccurately identified, resulting in a lack of urgency in addressing this issue. We aim to address this under-identification of deaths from heat waves in order to better assess heat risk. We investigated death records in New York City from 2010 to 2012 to identify characteristics that vary between deaths officially categorized as caused by heat wave exposure (oHDs) and those possibly caused by heat (pHDs). We found that oHDs were more often black and of a younger age than would typically be expected. We also found that there was a lack of evidence to substantiate that an oHD had occurred, using the NYC official criteria. We conclude that deaths from heat waves are not being accurately recorded, leading to a mis-estimation. Training regarding the collection and interpretation of evidence may improve preparedness for heat events.",
-            "cosine": 0.7630552053451538,
+            "cosine": 0.7630553245544434,
             "label": "Relevant"
-          }
-        ]
-      }
-    },
-    {
-      "query_index": 4,
-      "query": "End-to-end systems that clean hospital data, learn risk patterns, and generate real-time alerts.",
-      "category": "Pipeline / Workflow Queries",
-      "systems": {
-        "LitSense2": [
-          {
-            "doc_index": 0,
-            "title": "End-to-end system: There is no complete real-time system that utilizes the research outcomes in machine learning methods (Jaiswal et al., ). The researchers can build a real-time system using deep learning and machine learning mechanisms to diagnose COVID-19 virus infection. Such a system can help in checking hospitals, airports, markets, schools, and any other area that is considered a host spot those areas which are the primary hotshots for extending the pandemics.",
-            "cosine": 0.5541356801986694,
-            "label": "Partially relevant"
-          },
-          {
-            "doc_index": 1,
-            "title": "As indicated in Table 2, the optimized system has an inference latency of 39 ms for each frame and thus a real-time processing rate of about 25 frames per second (FPS). The end-to-end system latency, encompassing distraction detection and road object recognition modules, was minimized to 57 ms. Also, the model size was compressed by about 45%, while memory usage went down by 46%, thus making the system extremely acceptable for embedded ADAS applications. These findings ascertain that the proposed framework can carry out real-time risk assessment and alert generation on resource-restricted edge devices without degradation in performance or accuracy.",
-            "cosine": 0.30121660232543945,
-            "label": "Weakly relevant"
-          },
-          {
-            "doc_index": 2,
-            "title": "Figure 2 illustrates the end-to-end flow of how real-time environmental data is transformed into actionable health risk insights. The process begins with the continuous input of data from sensor networks, meteorological databases, and satellite imagery. These raw data streams are fed into a preprocessing module, where essential tasks such as data fusion, normalization, outlier detection, and feature extraction are performed to ensure consistency and reliability. The cleaned and enriched data is then passed into the deployment engine, which houses the trained machine learning models responsible for generating pollution forecasts and health risk scores. Personalised alerts and dynamic risk maps are two of the many output modules that get these signals. The findings are presented through graphical risk stratification maps and health alerts sent to mobile devices. Air quality responses and proactive public health management are made possible by the framework's fast and accurate data processing.",
-            "cosine": 0.5827032327651978,
-            "label": "Partially relevant"
-          }
-        ],
-        "PubMed": [
-          {
-            "doc_index": 0,
-            "title": "",
-            "cosine": 0.0731053277850151,
-            "label": "Irrelevant"
-          }
-        ],
-        "VectorSage": [
-          {
-            "doc_index": 0,
-            "title": "We developed and implemented a strategy for notifying clinical pharmacists of alerts generated in real-time by two pharmacy expert systems: one for drug dosing and the other for adverse drug event prevention. Display pagers were selected as the preferred notification method and a concise, yet readable, format for displaying alert data was developed. This combination of real-time alert generation and notification via display pagers was shown to be efficient and effective in a 30-day trial.",
-            "cosine": 0.5841111540794373,
-            "label": "Partially relevant"
-          },
-          {
-            "doc_index": 1,
-            "title": "The aim is to develop and deploy an automated clinical alert system to enhance patient care and streamline healthcare operations. Structured and unstructured data from multiple sources are used to generate near real-time alerts for specific clinical scenarios, with an additional goal to improve clinical decision-making through accuracy and reliability.\n\n\nMETHODS\nThe automated clinical alert system, named Smart Watchers, was developed using Apache NiFi and Python scripts to create flexible data processing pipelines and customisable clinical alerts. A comparative analysis between Smart Watchers and the legacy Elastic Watchers was conducted to evaluate performance metrics such as accuracy, reliability, and scalability. The evaluation involved measuring the time taken for manual data extraction through the electronic patient record (EPR) front-end and comparing it with the automated data extraction process using Smart Watchers.\n\n\nRESULTS\nDeployment of Smart Watchers showcased a consistent time savings between 90% to 98.67% compared to manual data extraction through the EPR front-end. The results demonstrate the efficiency of Smart Watchers in automating data extraction and alert generation, significantly reducing the time required for these tasks when compared to manual methods in a scalable manner.\n\n\nCONCLUSIONS\nThe research underscores the utility of employing an automated clinical alert system, and its portability facilitated its use across multiple clinical settings. The successful implementation and positive impact of the system lay a foundation for future technological innovations in this rapidly evolving field.",
-            "cosine": 0.7037520408630371,
-            "label": "Relevant"
-          },
-          {
-            "doc_index": 2,
-            "title": "As part of the development and testing of an innovative technology for tracking disinfection of portable medical equipment, end-user feedback was obtained during an initial trial on two acute care hospital units. The disinfection tracking device was installed on the computers-on-wheels and vital signs machines. Each device had the capability of detecting a cleaning event, reporting the event to an online database, and displaying the time since last cleaning event on a visual display. End-user feedback regarding functionality, usefulness of information provided, and impact on workflow was obtained by survey and facilitated group discussions. Seventeen frontline nurses completed the anonymous survey, and 22 participated in the facilitated group discussions. End users found the system functionally easy to use and the information about time since last cleaning useful and reported minimum disruption of workflow. Functionality of the system was confirmed by consistency between recorded and self-reported cleaning patterns. Managers found the data on cleaning of portable medical equipment helpful in validating compliance with hospital equipment cleaning policy. Frontline staff expressed appreciation for technology that helps them and improves outcomes but also discussed concerns about the potential for technology that creates extra work and disruption in the busy frontline nursing care delivery environment. Nurses were appreciative of opportunities to provide feedback and input into efforts to develop and introduce technology. Recorded cleaning events coincided with self-reported equipment cleaning patterns and illustrated that the device efficiently collects information deemed useful by the end user.",
-            "cosine": 0.5708218216896057,
-            "label": "Partially relevant"
           }
         ]
       }
     },
     {
       "query_index": 5,
-      "query": "Diagnostic AI designed to work in clinics with limited imaging equipment and unreliable internet.",
-      "category": "Resource-Constrained Setting Queries",
+      "query": "How does a hospital system validate and deploy a machine learning model for predicting sepsis onset before using it on real patients?",
+      "category": "Pipeline / Workflow",
       "systems": {
         "LitSense2": [
           {
             "doc_index": 0,
-            "title": "The implementation of AI in suicide prevention within resource-limited settings presents several challenges. Firstly, infrastructure limitations, such as unreliable internet access and limited computing power, hinder the deployment of advanced AI technologies. Developing mobile-based AI platforms capable of operating offline can help overcome these barriers in remote areas.",
-            "cosine": 0.4028121829032898,
-            "label": "Weakly relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 1,
-            "title": "Navigating the Digital Landscape The Thrive by Five app was originally envisioned as the primary means of content dissemination for the program; however, concerns regarding the availability of digital technologies as well as electricity and internet access were noted to impact R&D processes across all cases. Specifically, unreliable internet connections frequently resulted in disruptions during routine project planning and management meetings with in-country partners, as well as co-design and evaluation activities with stakeholders. Due to budgetary limitations and safety concerns related to conducting field research in some countries, the sample of participants available for research activities was restricted to those who could access electricity, the internet, and a smart device or computer, which often resulted in unrepresentative samples comprised primarily of individuals who lived in urban settings and who were more highly educated. This was reflected in participant demographic data collected by the in-country partner or via the research team's evaluation survey.",
-            "cosine": 0.14610806107521057,
-            "label": "Irrelevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 2,
-            "title": "Themes and codes generated from thematic analysis Theme Code Digital competency gaps Lack of training in AI, EHR systems Limited access to digital tools Shortage of digital imaging, unreliable internet Barriers to digital adoption Faculty resistance, policy gaps, financial constraints Stakeholder support for digital transformation Demand for modernized training, preference for AI and teledentistry Source: Authors' work",
-            "cosine": 0.4731029272079468,
-            "label": "Weakly relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "PubMed": [
           {
             "doc_index": 0,
             "title": "",
-            "cosine": 0.029727786779403687,
-            "label": "Irrelevant"
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "VectorSage": [
           {
             "doc_index": 0,
-            "title": "Current trends in clinical radiography practice include the integration of artificial intelligence (AI) and related applications to improve patient care and enhance research. However, in low resource countries there are unique barriers to the process of AI integration. Using Ghana as a case study, this paper seeks to discuss the potential impact of AI on future radiographic practice in low-resource settings. The opportunities, challenges and the way forward to optimise the potential benefits of AI in future practice within these settings have been explored.\n\n\nRESULTS\nSome of the barriers to AI integration into radiographic practice relate to lack of regulatory and legal policy frameworks and limited resource availability including unreliable internet connectivity and low expert skillset.\n\n\nCONCLUSIONS\nThese barriers notwithstanding, AI presents a great potential to the growth of medical imaging and subsequently improving quality of healthcare delivery in the near future. For example, AI-enabled radiographer reporting has a potential to improving quality of healthcare, especially in low-resource settings like Ghana with an acute shortage of radiologists. In addition, futuristic AI-enabled advancements such as synthetic cross-modality transfer where images from one modality are used as a baseline to generate a corresponding image of another modality without the need for additional scanning will be of particular benefit in low-resource settings.\n\n\nCONCLUSIONS\nThe urgent need for inclusion of AI modules for the training of the radiographer of the future has been suggested. Recommendations for development of AI strategies by national societies and regulatory bodies will harmonise the implementation efforts. Finally, there is need for collaboration between clinical practitioners and academia to ensure that the future radiography workforce is well prepared for the AI-enabled clinical environment.",
-            "cosine": 0.6806061267852783,
-            "label": "Partially relevant"
+            "title": "Early detection of sepsis can be life-saving. Machine learning models have shown great promise in early sepsis prediction when applied to patient physiological data in real-time. However, these existing models often under-perform in terms of positive predictive value, an important metric in clinical settings. This is especially the case when the models are applied to data with less than 50% sepsis prevalence, reflective of the incidence rate of sepsis on the floor or in the ICU. In this study, we develop HeMA, a hierarchically enriched machine learning approach for managing false alarms in real time, and conduct a case study for early sepsis prediction. Specifically, we develop a two-stage framework, where a first stage machine learning model is paired with statistical tests, particularly Kolmogorov-Smirnov tests, in the second stage, to predict whether a patient would develop sepsis. Compared with machine learning models alone, the framework results in an increase in specificity and positive predictive value, without compromising F1 score. In particular, the framework shows improved performance when applied to data with 50% and 25% sepsis prevalence, collected from a large hospital system in the US, resulting in up to 18% and 7% increase in specificity and positive predictive value, respectively. Despite the significant improvements observed, and although F1 score is not negatively affected, because of the up to 6% decrease in sensitivity, further improvements and pilot studies may be necessary before deploying the framework in a clinical setting. Finally, external validation conducted using a publicly available dataset produces similar results, validating that the proposed framework is generalizable.",
+            "cosine": 0.6751840114593506,
+            "label": "Relevant"
           },
           {
             "doc_index": 1,
-            "title": "To evaluate the use of ultrasound (US) in the diagnostic work-up of adult intussusception (AI).\n\n\nMETHODS\nThis multicenter study includes 26 consecutive patients diagnosed with AI between January 2010 and November 2017. A retrospective chart analysis was conducted with a focus on abdominal US findings and diagnostic accuracy of different imaging modalities (ultrasound, computed tomography (CT), magnetic resonance imaging). If available, surgical and pathological findings served as the gold standard (76.9 %). US examiners certified according to DEGUM grade 2 or 3 were classified as experts. Otherwise, they were regarded to have basic skills.\n\n\nRESULTS\nDuring diagnostic work-up, 92.3 % underwent abdominal US. US was the first-line imaging modality in 88.5 % of cases. The accuracy regarding the detection of AI (85 %), correct localization (95 %) and detection of complications (100 %) was excellent and comparable with CT (81 %, 90.5 %, and 91.7 %) when performed by experts. 72.7 % of tumorous lead points were detected by experienced examiners. In contrast, AI was detected in only 45.5 % of cases by examiners with basic skills. AI was diagnosed prior to surgery in all patients.\n\n\nCONCLUSIONS\nUS is reliable in the diagnostic work-up of AI when performed by experienced examiners with high-quality equipment. US, CT and MRI should be used in a complementary fashion since combination provides excellent sensitivity regarding the detection and correct localization of AI as well as the detection of complications. The impact of real-time imaging is illustrated by supplementary videos.",
-            "cosine": 0.29127997159957886,
-            "label": "Weakly relevant"
+            "title": "As a life-threatening condition, sepsis is one of the major public health issues worldwide. Early prediction can improve sepsis outcomes with appropriate interventions. With the PhysioNet/Computing in Cardiology Challenge 2019, we aimed to develop and validate a machine learning algorithm with high prediction performance and clinical interpretability for prediction of sepsis onset during critical care in real-time.Retrospective observational cohort study.\n\n\n\nThe dataset was collected from three ICUs in three different U.S. hospitals. Two of them were publicly available for model development (offline) and one was used for testing (online).\n\n\n\nForty-thousand three-hundred thirty-six ICU patients from the two model development databases and 24,819 from the test database. There are up to 40 hourly-recorded clinical variables for each ICU stay. The Sepsis-3 criteria were used to confirm sepsis onset.\n\n\n\nNone.\n\n\n\nThree-hundred twelve features were constructed hourly as the input of our proposed Time-phAsed machine learning model for Sepsis Prediction. Time-phAsed machine learning model for Sepsis Prediction first estimates the likelihood of sepsis onset for each hour of an ICU stay in the following 6 hours, and then makes a binary prediction with three time-phased cutoff values. On the internal validation set, the utility score (official challenge measurement) achieved by Time-phAsed machine learning model for Sepsis Prediction was 0.430. On the test set, the utility score reached was 0.354. Furthermore, Time-phAsed machine learning model for Sepsis Prediction provides an intuitive way to illustrate the impact of the input features on the outcome prediction, which makes it clinically interpretable.\n\n\n\nThe proposed Time-phAsed machine learning model for Sepsis Prediction model is accurate and interpretable for real-time prediction of sepsis onset in critical care, which holds great potential for further evaluation in prospective studies.",
+            "cosine": 0.6631206274032593,
+            "label": "Relevant"
           },
           {
             "doc_index": 2,
-            "title": "Current Internet-based teleconferencing techniques allow a referring pathologist to transmit real-time images from a microscope to a consultant, while maintaining a verbal conversation using Internet telephony. In our study, 50 randomly selected transbronchial biopsies from lung allograft recipients and 58 randomly selected endomyocardial biopsies from heart transplant patients were diagnosed by consultant pathologists using Internet-based teleconferencing methods. The referring pathologists acquired the real-time video images from the biopsies using a light microscope equipped with a phototube adapter and a video camera. The consultant pathologists viewed the processed images on a video monitor at 800 x 600 resolution, using a standard microcomputer equipped with Netmeeting software, and directed the referring pathologist to move the slide under the microscopy and/or change image magnification. The validity of telepathology diagnoses was assessed with kappa coefficients. Consultations were completed in 5 to 15 minutes per case. Sound transmission was unreliable, and in approximately 25% of consultations the referring pathologist needed to \"call back\" to reestablish verbal communication. In all but 2 transbronchial biopsies there was agreement between the original diagnosis and the diagnosis by telepathology (kappa = 0.92). In 48 of 58 endomyocardial biopsies there was concordance between the 2 diagnoses (kappa = 0.692). Only 3 out of 10 of these discrepancies were clinically significant (kappa = 0.897). Internet-based teleconferencing techniques provide effective and relatively inexpensive tools for real time telepathology consultations. The technology is probably best suited for the study of small specimens from patients that require rapid diagnosis by a consultant.",
-            "cosine": 0.41976433992385864,
-            "label": "Weakly relevant"
+            "title": "We aimed to develop an early warning system for real-time sepsis prediction in the ICU by machine learning methods, with tools for interpretative analysis of the predictions. In particular, we focus on the deployment of the system in a target medical center with small historical samples.Light Gradient Boosting Machine (LightGBM) and multilayer perceptron (MLP) were trained on Medical Information Mart for Intensive Care (MIMIC-III) dataset and then finetuned on the private Historical Database of local Ruijin Hospital (HDRJH) using transfer learning technique. The Shapley Additive Explanations (SHAP) analysis was employed to characterize the feature importance in the prediction inference. Ultimately, the performance of the sepsis prediction system was further evaluated in the real-world study in the ICU of the target Ruijin Hospital.\n\n\n\nThe datasets comprised 6891 patients from MIMIC-III, 453 from HDRJH, and 67 from Ruijin real-world data. The area under the receiver operating characteristic curves (AUCs) for LightGBM and MLP models derived from MIMIC-III were 0.98 - 0.98 and 0.95 - 0.96 respectively on MIMIC-III dataset, and, in comparison, 0.82 - 0.86 and 0.84 - 0.87 respectively on HDRJH, from 1 to  5 h preceding. After transfer learning and ensemble learning, the AUCs of the final ensemble model were enhanced to 0.94 - 0.94 on HDRJH and to 0.86 - 0.9 in the real-world study in the ICU of the target Ruijin Hospital. In addition, the SHAP analysis illustrated the importance of age, antibiotics, net balance, and ventilation for sepsis prediction, making the model interpretable.\n\n\n\nOur machine learning model allows accurate real-time prediction of sepsis within 5-h preceding. Transfer learning can effectively improve the feasibility to deploy the prediction model in the target cohort, and ameliorate the model performance for external validation. SHAP analysis indicates that the role of antibiotic usage and fluid management needs further investigation. We argue that our system and methodology have the potential to improve ICU management by helping medical practitioners identify at-sepsis-risk patients and prepare for timely diagnosis and intervention.\n\n\n\nNCT05088850 (retrospectively registered).",
+            "cosine": 0.6389071345329285,
+            "label": "Partially relevant"
           }
         ]
       }
     },
     {
       "query_index": 6,
-      "query": "Models maintaining diagnostic accuracy when applied to hospitals different from training sites.",
-      "category": "Robustness / Generalization Queries",
+      "query": "How can hospitals with limited laboratory capacity accurately identify patients with a life-threatening infection without advanced testing equipment?",
+      "category": "Resource-Constrained Setting",
       "systems": {
         "LitSense2": [
           {
             "doc_index": 0,
-            "title": "Last but not the least, DLRE showed remarkable robustness in this multicentre study. When three randomly selected combinations of hospitals were used to build training cohorts, no significant variation was found for classifying liver fibrosis in training and validation cohorts using DLRE, and the diagnostic accuracy (table 4) matched the overall diagnostic accuracy of DLRE (table 2). These findings proved DLRE to be robust and reliable, which was valuable of clinical generalisation in China. Utilising the data acquired from limited number of hospitals to train and establish the DLRE model is likely to be sufficient in applying it for assessing liver fibrosis stages in other hospitals with a consistent accuracy.",
-            "cosine": 0.45780494809150696,
-            "label": "Weakly relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 1,
-            "title": "3.7. Effect of Sample Size of the Training Set and AI Model on the Accuracy of Facial Recognition Table 4 lists the range of FRI, sample sizes of the training set, AI models, as well as relative median and range of diagnostic accuracy by facial recognition. As for the sample size of the training set, which ranged from 30 to 3465 in the eligible studies, it was shown that the diagnostic accuracy of diseases with FRI higher than 8 was greater than 0.95, even if the sample size of the training set was lower than 100, with the minimum sample size being 30. Diseases with FRI ranging from 6 to 8 showed relatively low diagnostic accuracy when the sample size of the training set was lower than 100, with the minimum sample size being 49, and the accuracy increased with the sample size. The minimum training size for diseases with FRI lower than 6 was 60, and a sample size greater than 1000 significantly improved the diagnostic accuracy of facial recognition, indicating that a modest increase in the sample size of the training set played an important role in improving the diagnostic accuracy of diseases with low FRI.",
-            "cosine": 0.47216108441352844,
-            "label": "Weakly relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 2,
-            "title": "However, alongside these advancements, substantial ethical and fairness challenges have emerged. Biases embedded within training data can lead to skewed AI models, resulting in disparities in healthcare outcomes across different demographic groups. For instance, an algorithm used in US hospitals was biased against black patients in resource allocation, and dermatological AI showed lower diagnostic accuracy for conditions like melanoma in darker-skinned individuals due to training primarily on fair-skinned images. Similarly, AI tools for diagnosing depression have faced challenges when applied across different linguistic and cultural backgrounds because they were primarily trained on English-speaking, Western populations, leading to potential misdiagnoses in non-Western patients. AI models trained predominantly on data from specific populations have exhibited lower diagnostic accuracy for underrepresented groups, exacerbating existing health disparities. These examples highlight the urgent need for diverse datasets and transparent AI systems to ensure fairness and equity in healthcare AI applications.",
-            "cosine": 0.4070526659488678,
-            "label": "Weakly relevant"
-          }
-        ],
-        "PubMed": [
-          {
-            "doc_index": 0,
-            "title": "Objective. To overcome the effects of site differences in EEG-based brain age prediction in preterm infants.Approach. We used a 'bag of features' with a combination function estimated using support vector regression (SVR) and feature selection (filter then wrapper) to predict post-menstrual age (PMA). The SVR was trained on a dataset containing 138 EEG recordings from 37 preterm infants (site 1). A separate set of 36 EEG recordings from 36 preterm infants was used to validate the age predictor (site 2). The feature distributions were compared between sites and a restricted feature set was constructed using only features that were not significantly different between sites. The mean absolute error between predicted age and PMA was used to define the accuracy of prediction and successful validation was defined as no significant differences in error between site 1 (cross-validation) and site 2.Main results. The age predictor based on all features and trained on site 1 was not validated on site 2 (p< 0.001; MAE site 1 = 1.0 weeks,n= 59 versus MAE site 2 = 2.1 weeks,n= 36). The MAE was improved by training on a restricted features set (MAE site 1 = 1.0 weeks,n= 59 versus MAE site 2 = 1.1 weeks,n= 36), resulting in a validated age predictor when applied to site 2 (p= 0.68). The features selected from the restricted feature set when training on site 1 closely aligned with features selected when trained on a combination of data from site 1 and site 2.Significance. The ability of EEG classifiers, such as brain age prediction, to maintain accuracy on data collected at other sites may be challenged by unexpected, site-dependent differences in EEG signals. Permitting a small amount of data leakage between sites improves generalization, leading towards universal methods of EEG interpretation in preterm infants.",
-            "cosine": 0.3243919610977173,
-            "label": "Weakly relevant"
-          },
-          {
-            "doc_index": 1,
-            "title": "To investigate the efficacy of Fluid and White Matter Suppression (FLAWS) MRI sequence in improving Deep Learning (DL)-based detection and segmentation of cortical lesions in Multiple Sclerosis (MS) patients even, and to develop models that can generalize to clinical settings where only standard T1-weighted images (MPRAGE) are available. In this multi-site study, we analyzed 204 MS patients using DL models developed with FLAWS and Magnetization Prepared 2 Rapid Acquisition Gradient Echoes (MP2RAGE) sequences. Reference standard annotations were established through two approaches: (1) consensus of three expert raters across all contrasts, and (2) single-rater annotations for individual modalities. Models were validated on both internal and external datasets, with performance assessed using F1-score for detection and DSC for segmentation accuracy. Models involving FLAWS demonstrated superior performance over MP2RAGE-only models. The model combining MP2RAGE and FLAWS achieved CL detection with median F1-score of 0.667[0.339-0.840] compared to multi-rater consensus. Models trained on comprehensive consensus annotations outperformed those trained on single-modality annotations. Notably, a model trained on MP2RAGE but leveraging FLAWS-derived annotations showed strong generalization when applied to standard clinical Magnetization Prepared Rapid Gradient-Echo (MPRAGE) datasets from a different institution (median F1-score: 0.55[0.211-0.998]), demonstrating successful knowledge transfer from advanced research sequences to routine clinical sequences. Integration of FLAWS-derived contrasts and annotations significantly improves DL-based CL detection and segmentation. The models demonstrate capability in identifying lesions missed by individual raters and maintain robust performance when applied to standard clinical sequences at external sites. This cross-sequence generalization facilitates immediate clinical translation, supported by publicly available inference models on DockerHub.",
-            "cosine": 0.249479740858078,
-            "label": "Irrelevant"
-          }
-        ],
-        "VectorSage": [
-          {
-            "doc_index": 0,
-            "title": "Accuracy in psychiatric diagnosis is critical for evaluating the suitability of the subjects for entry into research protocols and for establishing comparability of findings across study sites. However, training programs in the use of diagnostic instruments for research projects are not well systematized. Furthermore, little information has been published on the maintenance of interrater reliability of diagnostic assessments. At the UCLA Research Center for Major Mental Illnesses, a Training and Quality Assurance Program for SCID interviewers was used to evaluate interrater reliability and diagnostic accuracy. Although clinically experienced interviewers achieved better interrater reliability and overall diagnostic accuracy than neophyte interviewers, both groups were able to achieve and maintain high levels of interrater reliability, diagnostic accuracy, and interviewer skill. At the first quality assurance check after training, there were no significant differences between experienced and neophyte interviewers in interrater reliability or diagnostic accuracy. Standardization of training and quality assurance procedures within and across research projects may make research findings from study sites more comparable.",
-            "cosine": 0.40927526354789734,
-            "label": "Weakly relevant"
-          },
-          {
-            "doc_index": 1,
-            "title": "The healthcare environment is constantly changing. Probabilistic clinical decision support systems need to recognize and incorporate the changing patterns and adjust the decision model to maintain high levels of accuracy.\n\n\nMETHODS\nUsing data from >75,000 ED patients during a 19-month study period we examined the impact of various static and dynamic training strategies on a decision support system designed to predict hospital admission status for ED patients. Training durations ranged from 1 to 12 weeks. During the study period major institutional changes occurred that affected the system's performance level.\n\n\nRESULTS\nThe average area under the receiver operating characteristic curve was higher and more stable when longer training periods were used. The system showed higher accuracy when retrained an updated with more recent data as compared to static training period.\n\n\nCONCLUSIONS\nTo adjust for temporal trends the accuracy of decision support systems can benefit from longer training periods and retraining with more recent data.",
-            "cosine": 0.6762776374816895,
-            "label": "Partially relevant"
-          },
-          {
-            "doc_index": 2,
-            "title": "The aim of this study is to assess the image quality and diagnostic accuracy of computed tomography (CT) coronary angiography (CTCA) in different hospital settings with the same trained team.\n\n\nMETHODS\nFour hundred patients were consecutively enrolled for CTCA in a large academic hospital (Group 1; Sensation 64 Cardiac, Siemens - Iomeprol 400, Bracco; 200 patients) and in a small local hospital (Group 2; VCT, GE Healthcare - Iodixanol 320, GE Healthcare; 200 patients). All patients were enrolled for suspected coronary artery disease (CAD) and patients with stents or who had previously undergone coronary bypass were excluded. Scan protocols (retrospectively ECG-gated; no dose reduction modulation applied) were performed in accordance with standards reported in the international literature with the best solution available on site. Image quality was assessed in each coronary segment with a 4-point Likert scale: 0, not assessable; 1, low; 2, average; 3, good. Diagnostic accuracy was calculated against conventional coronary angiography with a threshold of at least 50% for significant stenosis.\n\n\nRESULTS\nThere was no significant difference between demographics, BMI, prevalence of obstructive CAD, calcium score and heart rate between the two populations. The average image quality was 2.83 ± 0.37 for Group 1 and 2.86 ± 0.31 for Group 2 (P > 0.05). Per-segment sensitivity, specificity, positive and negative predictive values were 92.6% (87-95), 97.9% (97-98), 75.9% (69-81) and 99.5% (99-99), respectively, for Group 1, and 90.4% (85-93), 98.6% (98-99), 84.2% (78-88) and 99.2% (98-99), respectively, for Group 2 (P > 0.05).\n\n\nCONCLUSIONS\nThere is no significant difference in image quality and diagnostic accuracy of CTCA when the investigation is performed by the same properly trained team. CTCA is a robust imaging modality for the detection of coronary artery stenosis.",
-            "cosine": 0.35198256373405457,
-            "label": "Weakly relevant"
-          }
-        ]
-      }
-    },
-    {
-      "query_index": 7,
-      "query": "Interactive outbreak dashboards allowing policymakers to explore intervention scenarios.",
-      "category": "Human–AI Interaction Queries",
-      "systems": {
-        "LitSense2": [
-          {
-            "doc_index": 0,
-            "title": "Decision support outputs A key contribution of the framework lies in its ability to generate decision-support outputs that translate analytical findings into actionable insights for urban planners and policymakers. Beyond risk quantification, the framework integrates modeling results into interactive dashboards and ranking tools that enable scenario exploration, resource allocation, and prioritization of interventions. These outputs bridge the gap between technical assessments and practical policy application. The decision-support dashboard provides real-time visualization of composite risk indices, hotspot clusters, and sensor-derived early warnings. By integrating simulation results with dynamic user interfaces, policymakers can assess the impact of interventions under varying assumptions such as budget constraints, adoption rates, or hazard intensities. Importantly, the dashboard highlights trade-offs, allowing decision-makers to balance competing priorities across cost, equity, and resilience.",
-            "cosine": 0.6198275089263916,
-            "label": "Partially relevant"
-          },
-          {
-            "doc_index": 1,
-            "title": "Objective 9: develop a microsimulation model to evaluate health and economic impacts of policies and provide a practical decision support dashboard for policymakers for all European countries We will expand the Health-GPS policy microsimulation tool used in Objective 1 to explore the economic and health impacts of obesity-related policies across various European countries. Health-GPS relies on complex datasets as inputs to inform country-specific demographic trends, along with individual exposures to modifiable and non-modifiable risk factors associated with obesity and other related NCDs. Using these data and simulations of populations over time, Health-GPS estimates the health and economic impacts of policies aimed at reducing exposure to given (e.g. dietary) risk factors, and the resulting influence on the incidence and outcomes of NCDs. Policy scenarios, involving a specific policy design and estimates of intervention impacts, will be developed for national-level policy recommendations taking equity into consideration as well as risk of misuse by decision-makers. Each policy scenario will be simulated in comparison to a baseline, to estimate the expected impacts of interventions. Country-specific simulated results will be displayed on an interactive dashboard, allowing policymakers, other relevant stakeholders, and the public to explore the impact of policy scenarios in relevant settings and under alternative sets of assumptions.",
-            "cosine": 0.4329667389392853,
-            "label": "Weakly relevant"
-          },
-          {
-            "doc_index": 2,
-            "title": "The possibility of having a dashboard in the future that allows policymakers to interact with the model and also considers the costs required for implementing different prevention scenarios could be a useful tool for deciding where to allocate resources.",
-            "cosine": 0.650824785232544,
-            "label": "Partially relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "PubMed": [
           {
             "doc_index": 0,
             "title": "",
-            "cosine": 0.06728210300207138,
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Pythiosis, a life-threatening infectious condition caused by Pythium insidiosum, has been increasingly reported in humans and animals worldwide. Antifungal drugs usually fail to control the pathogen. The surgical removal of an infected organ is the treatment of choice. Many affected patients die due to advanced infection. A timely and accurate diagnosis could lead to a better prognosis in pythiosis patients and save their lives. Although a standard culture method is available in microbiological laboratories, it is time-consuming, laborious, and insensitive for P. insidiosum identification. Immunological assays have been developed to improve the diagnosis of pythiosis. However, immunological methods are commercially unavailable and primarily detect anti-P. insidiosum antibodies, which constitute indirect evidence of pythiosis, making it challenging to differentiate a past from a recent infection. Moreover, such immunological tests cannot diagnose patients with a local infection, such as in the eye. Nucleic acid-based tests (NATs) are efficient for the direct and rapid detection of P. insidiosum DNA in trace-amount or culture-negative specimens. The reagents and equipment required for NATs are usually available in molecular diagnostic laboratories. Herein, we provide a systematic review to comprehensively present the principal and clinical usages, advantages, and limitations of such NATs in the detection of P. insidiosum. Various NATs have been established to detect P. insidiosum, which can be classified into amplification-based (i.e., PCR assays, isothermal tests, and next-generation sequencing methods) and non-amplification-based (i.e., DNA hybridization) techniques. This concise review on NATs constitutes an up-to-date reference with which healthcare professionals can learn about and decide upon which detection method is suitable for their respective laboratory environments.",
+            "cosine": 0.3448868989944458,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "As the incidence of fungal infections in China increases, the demand for rapid and accurate diagnosis of mycoses is growing. Yet, information on current diagnostic capacity is scarce.\n\n\nMETHODS\nAn online survey was conducted in February 2018 to collect information on mycology testing from tertiary care hospitals across China. Responses from 348 hospitals were analyzed, and a scoring system was designed and employed to assess the overall diagnostic capacity.\n\n\nRESULTS\nMost of the surveyed hospitals did not have separate laboratory space, manpower, or equipment dedicated for fungal testing. Conventional staining methods were widely available (>70%), whereas GMS and fluorescent staining were less common. Fungal identification services were offered mostly with chromogenic medium, morphological characterization or automated identification systems, other than more advanced methods such as MALDI-TOF MS and DNA sequencing. Fungal serology testing was available in 81.1%, with G test being the most often used. Though 91.8% of the respondents had the ability to perform antifungal susceptibility testing for yeasts, less than 13% conducted such testing for molds. The percentage of laboratories participating in External Quality Assessment programs and research was 57.5% and 32.5%, respectively. The average score for the 348 surveyed hospitals was 37.2 (out of a maximum of 89 points), with only 15 hospitals scoring >60, suggesting a general lack of high-quality mycology laboratories.\n\n\nCONCLUSIONS\nThe overall clinical testing capacity for fungal infection in China is insufficient. More investment and training efforts are warranted to establish centers of excellence and promote access to high-quality diagnostic services.",
+            "cosine": 0.49896255135536194,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "The records of 129 patients admitted to the hospital with the findings of fever and petechiae were reviewed to determine the incidence of invasive bacterial disease in patients with this symptom complex. Twenty-six patients (20.2%) had culture-proven bacterial infections; 13 (11.1%) of the group had Neisseria meningitidis, eight had Haemophilus influenzae type B. No single laboratory test was sufficiently sensitive to detect all patients with life-threatening bacterial infections, but a combination of normal laboratory findings was highly specific for those without significant disease.",
+            "cosine": 0.47128576040267944,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 7,
+      "query": "How do clinicians decide when to trust or override an automated alert generated by a risk prediction tool in the intensive care unit?",
+      "category": "Human–AI Interaction",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "Nasal high flow (NHF) has gained popularity among intensivists to manage patients with acute respiratory failure. An important literature has accompanied this evolution. In this review, an international panel of experts assessed potential benefits of NHF in different areas of acute respiratory failure management. Analyses of the physiological effects of NHF indicate flow-dependent improvement in various respiratory function parameters. These beneficial effects allow some patients with severe acute hypoxemic respiratory failure to avoid intubation and improve their outcome. They require close monitoring to not delay intubation. Such a delay may worsen outcome. The ROX index may help clinicians decide when to intubate. In immunocompromised patients, NHF reduces the need for intubation but does not impact mortality. Beneficial physiological effects of NHF have also been reported in patients with chronic respiratory failure, suggesting a possible indication in acute hypercapnic respiratory failure. When intubation is required, NHF can be used to pre-oxygenate patients either alone or in combination with non-invasive ventilation (NIV). Similarly, NHF reduces reintubation alone in low-risk patients and in combination with NIV in high-risk patients. NHF may be used in the emergency department in patients who would not be offered intubation and can be better tolerated than NIV.",
+            "cosine": 0.3423822820186615,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "FRAX®, a simple-to-use fracture risk calculator, was first released in 2008 and since then has been used increasingly worldwide. By calculating the 10-year probabilities of a major osteoporotic fracture and hip fracture, it assists clinicians when deciding whether further investigation, for example a bone mineral density measurement (BMD), and/or treatment is needed to prevent future fractures. In this review, we explore the literature around osteoporosis and how FRAX has changed its management. We present the characteristics of this tool and describe the use of thresholds (diagnostic and therapeutic). We also present arguments as to why screening with FRAX should be considered. FRAX has several limitations which are described in this review. This review coincides with the release of a version, FRAXplus, which addresses some of these limitations.",
+            "cosine": 0.2745084762573242,
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "The goal of this European Society of Coloproctology (ESCP) guideline project is to give an overview of the existing evidence on the management of diverticular disease, primarily as a guidance to surgeons. The guideline was developed during several working phases including three voting rounds and one consensus meeting. The two project leads (JKS and EA) appointed by the ESCP guideline committee together with one member of the guideline committee (WB) agreed on the methodology, decided on six themes for working groups (WGs) and drafted a list of research questions. Senior WG members, mostly colorectal surgeons within the ESCP, were invited based on publication records and geographical aspects. Other specialties were included in the WGs where relevant. In addition, one trainee or PhD fellow was invited in each WG. All six WGs revised the research questions if necessary, did a literature search, created evidence tables where feasible, and drafted supporting text to each research question and statement. The text and statement proposals from each WG were arranged as one document by the first and last authors before online voting by all authors in two rounds. For the second voting ESCP national representatives were also invited. More than 90% agreement was considered a consensus. The final phrasing of the statements with < 90% agreement was discussed in a consensus meeting at the ESCP annual meeting in Vienna in September 2019. Thereafter, the first and the last author drafted the final text of the guideline and circulated it for final approval and for a third and final online voting of rephrased statements. This guideline contains 38 evidence based consensus statements on the management of diverticular disease. This international, multidisciplinary guideline provides an up to date summary of the current knowledge of the management of diverticular disease as a guidance for clinicians and patients.",
+            "cosine": 0.19857758283615112,
             "label": "Irrelevant"
           }
         ],
         "VectorSage": [
           {
             "doc_index": 0,
-            "title": "Health care-associated infections, specifically catheter-associated urinary tract infections (CAUTIs), can cause significant mortality and morbidity. However, the process of collecting CAUTI surveillance data, storing it, and visualizing the data to inform health policy has been fraught with challenges.No standard has been developed, so the objective of this article is to present a prototype solution for dashboarding public health surveillance data based on a real-life use-case for the purposes of enhancing clinical and policy-level decision-making.\n\n\n\nThe solution was developed in open source software R, which allows for the creation of dashboard applications using the integrated development environment developed for R called RStudio, and a package for R called Rshiny. How the surveillance system was designed, why R was chosen, how the dashboard was developed, and how the dashboard features were programmed and function will be described.\n\n\n\nThe prototype dashboard includes multiple tabs for visualizing data, and allows the user to interact with the data by setting dynamic filters. Controls were used to facilitate the interaction between the user and application. Rshiny is reactive, in that when the user (e.g., clinician or policymaker) changes the parameters on the data, the application automatically updates the visualization as well as parameters available based on current filters.\n\n\n\nThe prototype dashboard has the potential to enhance clinical and policy-level decision-making because it facilitates interaction with the data that provides useful visualizations to provide such guidance.",
-            "cosine": 0.6578021049499512,
+            "title": "Clinical decision support systems are computer technologies that model and provide support for human decision-making processes. Decision support mechanisms facilitate and enhance a clinician's ability to make decisions at the point of care. Decisions are facilitated through technology by using automated mechanisms that provide alerts or messages to clinicians about a potential patient problem. A clinician's level of trust in these technologies to support decision making is affected by how knowledge is represented in these tools, their ability to make reasonable decisions, and how they are designed. Furthermore, ethical tensions occur if these systems do not promote standards, if clinicians do not understand how to use these systems, and when professional relationships are affected. Issues of trust and ethical concerns will be examined in this article, using a research study of midwestern nursing homes that implemented a clinical decision support system.",
+            "cosine": 0.6062865257263184,
             "label": "Partially relevant"
           },
           {
             "doc_index": 1,
-            "title": "The results of many large-scale federal or multi-site evaluations are typically compiled into long reports which end up sitting on policymaker's shelves. Moreover, the information policymakers need from these reports is often buried in the report, may not be remembered, understood, or readily accessible to the policymaker when it is needed. This is not a new challenge for evaluators, and advances in statistical methodology, while they have created greater opportunities for insight, may compound the challenge by creating multiple lenses through which evidence can be viewed. The descriptive evidence from traditional frequentist models, while familiar, are frequently misunderstood, while newer Bayesian methods provide evidence which is intuitive, but less familiar. These methods are complementary but presenting both increases the amount of evidence stakeholders and policymakers may find useful. In response to these challenges, we developed an interactive dashboard that synthesizes quantitative and qualitative data and allows users to access the evidence they want, when they want it, allowing each user a customized, and customizable view into the data collected for one large-scale federal evaluation. This offers the opportunity for policymakers to select the specifics that are most relevant to them at any moment, and also apply their own risk tolerance to the probabilities of various outcomes.",
-            "cosine": 0.5487044453620911,
-            "label": "Partially relevant"
+            "title": "Electronic health records (EHRs) use alerts to help prevent medical errors, yet clinicians override many of these alerts due to desensitization from constant exposure (alert fatigue). We hypothesize that a clinician might override an alert warning about the dangers of a treatment if the patient's health is so poor that the treatment is worth the risk or if a patient's health suggests the treatment is not needed. We used logistic regression with general estimating equations to determine if the Early Warning Score (EWS), a measurement used to predict critical care need, could be used to predict alert overrides. EWS was a significant predictor of overrides for three alerts. Although EWS could not predict overrides for all alert rules, these results suggest that EWS may be helpful for some alerts, but that additional EHR data will be needed for predicting override behavior to a useful degree.",
+            "cosine": 0.7323870658874512,
+            "label": "Relevant"
           },
           {
             "doc_index": 2,
-            "title": "Retrospective analyses of the non-pharmaceutical interventions (NPIs) used to combat the ongoing COVID-19 outbreak have highlighted the potential of optimizing interventions. These optimal interventions allow policymakers to manage NPIs to minimize the epidemiological and human health impacts of both COVID-19 and the intervention itself. Here, we use a susceptible-infectious-recovered (SIR) mathematical model to explore the feasibility of optimizing the duration, magnitude and trigger point of five different NPI scenarios to minimize the peak prevalence or the attack rate of a simulated UK COVID-19 outbreak. An optimal parameter space to minimize the peak prevalence or the attack rate was identified for each intervention scenario, with each scenario differing with regard to how reductions to transmission were modelled. However, we show that these optimal interventions are fragile, sensitive to epidemiological uncertainty and prone to implementation error. We highlight the use of robust, but suboptimal interventions as an alternative, with these interventions capable of mitigating the peak prevalence or the attack rate over a broader, more achievable parameter space, but being less efficacious than theoretically optimal interventions. This work provides an illustrative example of the concept of intervention optimization across a range of different NPI strategies. This article is part of the theme issue 'Modelling that shaped the early COVID-19 pandemic response in the UK'.",
-            "cosine": 0.5941141247749329,
+            "title": "Clinical event monitors are a type of active medication monitoring system that can use signals to alert clinicians to possible adverse drug reactions. The primary goal was to evaluate the positive predictive values of select signals used to automate the detection of ADRs in the medical intensive care unit.\n\n\nMETHODS\nThis is a prospective, case series of adult patients in the medical intensive care unit during a six-week period who had one of five signals presents: an elevated blood urea nitrogen, vancomycin, or quinidine concentration, or a low sodium or glucose concentration. Alerts were assessed using 3 objective published adverse drug reaction determination instruments. An event was considered an adverse drug reaction when 2 out of 3 instruments had agreement of possible, probable or definite. Positive predictive values were calculated as the proportion of alerts that occurred, divided by the number of times that alerts occurred and adverse drug reactions were confirmed.\n\n\nRESULTS\n145 patients were eligible for evaluation. For the 48 patients (50% male) having an alert, the mean±SD age was 62±19 years. A total of 253 alerts were generated. Positive predictive values were 1.0, 0.55, 0.38 and 0.33 for vancomycin, glucose, sodium, and blood urea nitrogen, respectively. A quinidine alert was not generated during the evaluation.\n\n\nCONCLUSIONS\nComputerized clinical event monitoring systems should be considered when developing methods to detect adverse drug reactions as part of intensive care unit patient safety surveillance systems, since they can automate the detection of these events using signals that have good performance characteristics by processing commonly available laboratory and medication information.",
+            "cosine": 0.6302106380462646,
             "label": "Partially relevant"
           }
         ]
@@ -455,40 +539,46 @@
     {
       "query_index": 8,
       "query": "Public-health simulations evaluating intervention strategies across socioeconomic strata.",
-      "category": "Ethical / Fairness-Aware Modeling Queries",
+      "category": "Ethical / Fairness-Aware Modeling",
       "systems": {
         "LitSense2": [
           {
             "doc_index": 0,
             "title": "Methods Chilean health system and socioeconomic strata The Chilean health system has two sectors, public and private. The public sector covers the rural and urban poor population (low, middle-low socioeconomic strata with around 40% of Amerindian mixture). The private sector covers mostly the upper, middle-upper class and the high income population (high and middle-high socioeconomic strata, with at most 20% of Amerindian mixture).",
             "cosine": 0.4785517454147339,
-            "label": "Weakly relevant"
+            "label": "Partially relevant"
           },
           {
             "doc_index": 1,
             "title": "Socioeconomic strata, land cover, and hotspots. We found that socioeconomic strata are related to the presence of HHs and RHHs, similar to cities in Mexico, and also have been related to dengue outbreaks. People in low socioeconomic strata may face greater risks than those living in higher strata because of a combination of factors, such as limited access to resources, inadequate infrastructure, and higher population densities. Poor waste management, inadequate water storage practices, and a lack of effective mosquito control measures create a more favorable environment for the breeding and survival of vectors. These factors highlight the necessity for targeted public health interventions that address the specific vulnerabilities of these communities.",
-            "cosine": 0.49102744460105896,
-            "label": "Weakly relevant"
+            "cosine": 0.49102747440338135,
+            "label": "Partially relevant"
           },
           {
             "doc_index": 2,
             "title": "Introduction The global obesity epidemic continues to be one of the most pressing public health challenges of our time, affecting millions of individuals across all age groups and socioeconomic strata (Koliaki, Dalamaga, and Liatis ). As policymakers and health professionals grapple with this complex issue, various interventions have been proposed and implemented to curb the rising tide of obesity (Bagnall et al. ; Temple ).",
-            "cosine": 0.39210090041160583,
-            "label": "Weakly relevant"
+            "cosine": 0.392100989818573,
+            "label": "Irrelevant"
           }
         ],
         "PubMed": [
           {
             "doc_index": 0,
             "title": "Chronic diseases impose a sustained burden on healthcare systems through progressive deterioration and long-term costs. Although adherence-enhancing interventions are widely promoted, their return on investment (ROI) remains uncertain, particularly under heterogeneous patient behavior and socioeconomic variation. We developed a simulation-based framework integrating disease progression, time-varying adherence, and policy timing. Cumulative healthcare costs were modeled over a 10-year horizon using continuous-time stochastic formulations calibrated with Medical Expenditure Panel Survey (MEPS) data stratified by income. ROI was estimated across adherence gains (δ) and policy costs (γ). Early and adaptive interventions yielded the highest ROI by sustaining adherence and slowing progression. ROI exceeded 20% when [Formula: see text] and [Formula: see text], whereas low-impact or high-cost policies failed to break even. Subgroup analyses showed a 32% ROI gap between the lowest and highest income strata, with projected savings of $312 per patient versus baseline. Sensitivity tests confirmed robustness under stochastic adherence and inflation variability. The framework offers a transparent, adaptable tool for evaluating cost-effective adherence strategies. By linking behavioral effectiveness with fiscal feasibility, it supports design of robust and equitable chronic disease policies. Reported ROI values represent conservative lower bounds, and extensions incorporating DALYs and QALYs illustrate scalability toward health outcome integration.",
-            "cosine": 0.5727401375770569,
+            "cosine": 0.5727401971817017,
             "label": "Partially relevant"
           },
           {
             "doc_index": 1,
             "title": "Front-of-pack (FOP) nutrition labeling is a cost-effective strategy to help consumers make informed and healthier food choices. We aimed to investigate the effect of the FOP labels used in the Latin American region on consumers' shopping intentions when prompted to make their choices with specific nutrients-to-limit in mind among low- and middle-income Mexican adults (> 18 y). In this experimental study of an online simulated shopping situation participants (n = 2194) were randomly assigned to one of three labeling conditions: Guideline Daily Amounts (GDA), Multiple Traffic Lights (MTL), or red Warning Labels (WL). Participants were required to view a video explaining how to correctly interpret the assigned label. Primary outcomes were the overall nutritional quality (estimated using the Nutrient Profiling Scoring Criterion [NPSC] and NPSC baseline score) and mean energy and nutrient content of purchases. Secondary outcomes included shopping time variables. We also evaluated the impact of the labels across food categories (ready-made foods, dairy beverages, non-dairy beverages, salty snacks, and breakfast cereals) and sociodemographic subgroups. The MTL and the WL led to a better overall nutritional quality of the shopping cart compared to the GDA (p < 0.05). According to the NPSC score, the WL led to a better nutritional quality across breakfast cereals and salty snacks compared to the GDA (p < 0.05); a similar effect was observed for the MTL among non-dairy beverages (p < 0.05). The MTL and the WL required shorter shopping times compared to GDA (p < 0.05). Across all labeling conditions, the nutritional quality of the shopping cart tended to be lower among those with low income, education and nutrition knowledge levels. WL and MTL may foster healthier food choices in a faster way among low- and middle-income groups in Mexico. To produce an equitable impact among consumers of all socioeconomic strata, efforts beyond simply the inclusion of a communication campaign on how to use and interpret FOP labels will be required. clinicaltrials.gov. NCT04308408 Retrospectively registered March 16, 2020.",
             "cosine": 0.3765650987625122,
-            "label": "Weakly relevant"
+            "label": "Irrelevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "VectorSage": [
@@ -501,69 +591,148 @@
           {
             "doc_index": 1,
             "title": "Socioeconomic status and its impact on health are in the mainstream of public health thinking. This text discusses two paradigms utilized in assessing socioeconomic status in epidemiologic studies. One paradigm refers to prestige-based measurements and positive differentiation among social strata. This paradigm is characterized by classifications assessing social capital and the access to goods and services. The other paradigm refers to the classification of social deprivation and negative differentiation among social strata. The proposal of State-funded reposition to the mostly deprived social strata is acknowledged as characteristic of this paradigm. The contrast between these paradigms, and their potential interaction and debate are discussed. Fostering reflection on methodological strategies to assess socioeconomic status in epidemiologic studies can contribute to the promotion of health and social justice.",
-            "cosine": 0.5759197473526001,
+            "cosine": 0.5759196281433105,
             "label": "Partially relevant"
           },
           {
             "doc_index": 2,
             "title": "India has the greatest burden of diarrhea in children under 5 years globally. The Diarrhea Alleviation through zinc and oral rehydration salts (ORS) Therapy program (2010-2014) sought to improve access to and utilization of zinc and ORS among children 2-59 months in Gujarat and Uttar Pradesh (UP), India, through public and private sector delivery channels. In this analysis, we present findings on program's effect in reducing child-health inequities.\n\n\nMETHODS\nData from cross-sectional baseline and endline surveys were used to assess disparities in key outcomes across six dimensions: socioeconomic strata, gender, caregiver education, ethnicity and geography.\n\n\nRESULTS\nCareseeking outside the home for children under 5 years with diarrhea did not increase significantly in UP or Gujarat across socioeconomic strata. Declines in private sector careseeking were observed in both sites along with concurrent increases in public sector careseeking. Zinc, ORS, zinc+ORS use did not increase significantly in UP across socioeconomic strata. In Gujarat, increases in zinc use (20% overall; 33% in the Quintile 5 (Q5) strata) and zinc+ORS (18% overall; 30% in the Q5 strata) were disproportionately observed in the high income strata, among members of the most advantaged caste, and among children whose mothers had ≥1 year of schooling. ORS use increased significantly across all socioeconomic strata for children in Gujarat with diarrhea (23% overall; 33% in Q5 strata) and those with dehydration + diarrhea (33% overall; 38% in Q5 strata). The magnitude of increase in ORS receipt from the public sector was nearly twice that observed in the private sector. In Gujarat, while out of pocket spending for diarrhea was significantly higher for male children, overall costs to users declined by a mean of US$ 2; largely due to significant reductions in wages lost (-US$ 0.79; P < 0.003), and transportation costs (-US$ 0.44; P < 0.00).\n\n\nCONCLUSIONS\nWhile significant improvements in diarrhea treatment were achieved in Gujarat, new strategies are needed in UP, particularly in the private sector. If national-level reductions in diarrheal disease burden are to be realized, improved understanding is needed of how to optimally increase coverage of zinc and ORS and decrease contraindicated treatments amongst the most disadvantaged across geographic areas and axes of gender, ethnicity, education and socioeconomic status.",
             "cosine": 0.4579181671142578,
-            "label": "Weakly relevant"
+            "label": "Partially relevant"
           }
         ]
       }
     },
     {
       "query_index": 9,
-      "query": "Computational approaches identifying optimal vaccination allocation under limited supply.",
-      "category": "Intervention Optimization Queries",
+      "query": "Can measurements of certain pathogens in sewage water reliably predict an increase in cases of that disease in the surrounding population?",
+      "category": "Indirect Outcome",
       "systems": {
         "LitSense2": [
           {
             "doc_index": 0,
-            "title": "2.5 Mass vaccination strategies with limited vaccine supply With current limited vaccine supply, we assumed fixed dose availability of 5%, 10%, 20% or 30% of the population and evaluated different prioritisation strategies across age groups. A total of 10 vaccination strategies were proposed, targeting age groups prioritised in the optimal vaccine allocation strategies in 2.4. Within each set of prioritised age groups, vaccines were allocated by the following approaches:",
-            "cosine": 0.7808034420013428,
-            "label": "Relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 1,
-            "title": "We conceptualize a limited vaccine supply assuming that the number of vaccines available under the time interval of interest is fixed with a value W and that all vaccines will be delivered to the population. We further assume that the vaccine stockpile is not enough to vaccinate the whole population i.e. since in another case there is no need to optimize vaccine allocation.",
-            "cosine": 0.7403473258018494,
-            "label": "Relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           },
           {
             "doc_index": 2,
-            "title": "Analysis of the optimal vaccine allocation The optimal vaccine allocation obtained as the solution of the optimal control framework is complex to analyze. We will attempt to unravel the mechanism behind its performance. The strategy must obey the imposed logistic and supply constraints: 1) The vaccine stockpile is replenished every Monday by a fixed amount of doses (e.g., 479'700 doses in the baseline scenario), and 2) the maximum possible distribution capacity per province is limited, proportionally to the province population, so that the number of doses distributed across the country can be of 0.5M per day at maximum (more details in Fig A in S1 Text).",
-            "cosine": 0.7540700435638428,
-            "label": "Relevant"
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "PubMed": [
           {
             "doc_index": 0,
             "title": "",
-            "cosine": 0.03834338113665581,
-            "label": "Irrelevant"
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
           }
         ],
         "VectorSage": [
           {
             "doc_index": 0,
-            "title": "Vaccine allocation is a national concern especially for countries such as the Philippines that have limited resources in acquiring COVID-19 vaccines. As such, certain groups are suggested to be prioritized for vaccination to protect the most vulnerable before vaccinating others.The study aims to determine an optimal and equitable allocation of COVID-19 vaccines in the Philippines that will minimize the projected number of additional COVID-19 deaths while satisfying the priority groups for immediate vaccination.\n\n\n\nIn this study, a linear programming model is formulated to determine an allocation of vaccines such that COVID-19 deaths are minimized while the prioritization framework set by the government is satisfied. Data used were collected up to November 2020. Total vaccine supply, vaccine effectiveness, vaccine cost, and projected deaths are analyzed. Results of the model are also compared to other allocation approaches.\n\n\n\nResults of the model show that a vaccine coverage of around 60-70% of the population can be enough for a community with limited supplies, and an increase in vaccine supply is beneficial if the initial coverage is less than the specified target range. Additionally, among the vaccines considered in the study, the one with 89.9% effectiveness and a 183 Philippine peso price per dose projected the lowest number of deaths. Compared with other model variations and common allocation approaches, the model has achieved both an optimal and equitable allocation.\n\n\n\nHaving a 100% coverage for vaccination with a 100% effectiveness rate of vaccine is ideal for all countries. However, some countries have limited resources. Therefore, the results of our study can be used by policymakers to determine an optimal and equitable distribution of COVID-19 vaccines for a country/community.",
-            "cosine": 0.730751633644104,
+            "title": "This article discusses the value and limitations of using microbial indicators to predict occurrence of enteric pathogens in water. Raw or treated sewage is a primary source of fecal contamination of the receiving surface water or groundwater; hence, understanding the relationship between pathogens and indicators in sewage is an important step in understanding the correlation in receiving waters. This article presents three different datasets representing different concentrations of pathogens and microbial indicators: sewage containing high concentrations of pathogens and indicators, surface water with variable concentrations, and groundwater with low concentrations. In sewage, even with very high levels of microorganisms, no mathematical correlation can predict the type or concentration of any pathogen. After discharge in the environment, direct correlation becomes biologically improbable as dilution, transport, and different inactivation rates occur in various environments. In surface waters, advanced statistical methods such as logistic regression have provided some level of predictability of the occurrence of pathogens but not specific counts. In groundwater, the continuous absence of indicators indicates an improbable occurrence of pathogen. In contrast, when these indicators are detected, pathogen occurrence probability increases significantly. In groundwater, given the nature and dissemination pattern of pathogenic microorganisms, a direct correlation with fecal microbial indicators is not observed and should not be expected. However, the indicators are still useful as a measure of risk. In summary, many pathogens of public health importance do not behave like fecal microbial indicators, and there is still no absolute indicator of their presence, only a probability of their co-occurrence.",
+            "cosine": 0.7724463939666748,
             "label": "Relevant"
           },
           {
             "doc_index": 1,
-            "title": "When allocating limited vaccines to control an infectious disease, policy makers frequently have goals relating to individual health benefits (e.g., reduced morbidity and mortality) as well as population-level health benefits (e.g., reduced transmission and possible disease eradication). We consider the optimal allocation of a limited supply of a preventive vaccine to control an infectious disease, and four different allocation objectives: minimize new infections, deaths, life years lost, or quality-adjusted life years (QALYs) lost due to death. We consider an SIR model with n interacting populations, and a single allocation of vaccine at time 0. We approximate the model dynamics to develop simple analytical conditions characterizing the optimal vaccine allocation for each objective. We instantiate the model for an epidemic similar to COVID-19 and consider n=2 population groups: one group (individuals under age 65) with high transmission but low mortality and the other group (individuals age 65 or older) with low transmission but high mortality. We find that it is optimal to vaccinate younger individuals to minimize new infections, whereas it is optimal to vaccinate older individuals to minimize deaths, life years lost, or QALYs lost due to death. Numerical simulations show that the allocations resulting from our conditions match those found using much more computationally expensive algorithms such as exhaustive search. Sensitivity analysis on key parameters indicates that the optimal allocation is robust to changes in parameter values. The simple conditions we develop provide a useful means of informing vaccine allocation decisions for communicable diseases.",
-            "cosine": 0.798221230506897,
+            "title": "Cryptosporidium spp. are protozoa which only live in a host cell and may cause an infection that may result in the death of people with immune deficiency. It is known that Cryptosporidium parvum and Cryptosporidium hominis infections may be spread by contaminated well and tap waters. The facts that there is no certain and reliable cure and that the organisms may be found asymptomatically in the healthy people increases the importance of cryptosporidiosis. Our study has been performed in the city of Mersin and surrounding areas. A total of 100 samples of water were taken from taps (44 samples), wells (2 samples), the sea (35 samples) and sewage (19 samples) to investigate the presence of Cryptosporidium oocysts. Cryptosporidium oocysts have been detected in 5 samples of tap water, one sample of well water, one sample of sea water and 4 samples of sewage water.",
+            "cosine": 0.4463847279548645,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 2,
+            "title": "The causative agents of many infectious diseases are excreted by the faecal route and also with other excretions or secretions of the body. Some pathogens are also excreted from clinically healthy animals, from those with latent infections and in cases of transmissible multifactorial diseases. In all types of livestock housing, the pathogens finally reach the floor with the installations for collecting manure as a solid or liquid. Under these conditions livestock owners do not realise that manure may contain pathogens, and therefore do not take precautions against possible spread of diseases by utilisation of manure. The pathogens do not survive very long in stored farmyard manure because of the temperatures and biological and biochemical activities prevailing in the middens. But the conditions in slurry are different because the temperature does not rise and biochemical activity is low. Therefore the pathogens survive for rather long periods in slurry. To avoid disease transfer by utilisation of manure and slurry as fertilisers, certain precautions are necessary and these are described in detail. The agricultural utilisation of municipal sewage sludge is common in many countries. However, these sludges contain pathogens which are excreted by the human population served by the sewers and sewage treatment plants. In the sewage purification processes most of the pathogens are reduced in number but not completely eliminated. They are enriched by sedimentation processes in the sewage sludge. To protect the livestock of farms utilising sewage sludge as fertiliser or for amending soils it is necessary to sanitise hygienically dubious sludges prior to their use. The epidemiological aspects of agricultural sludge utilisation are discussed and details of the available sanitation technologies are given.",
+            "cosine": 0.43188345432281494,
+            "label": "Partially relevant"
+          }
+        ]
+      }
+    },
+    {
+      "query_index": 10,
+      "query": "How should a hospital decide which patients to admit to the intensive care unit when there are more critically ill patients than available beds?",
+      "category": "Intervention Optimization",
+      "systems": {
+        "LitSense2": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          }
+        ],
+        "PubMed": [
+          {
+            "doc_index": 0,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 1,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          },
+          {
+            "doc_index": 2,
+            "title": "",
+            "cosine": 0.0,
+            "label": "No result"
+          }
+        ],
+        "VectorSage": [
+          {
+            "doc_index": 0,
+            "title": "Rationing critical care beds occurs daily in the hospital setting. The objective of this systematic review was to examine the impact of rationing intensive care unit beds on the process and outcomes of care.\n\n\nMETHODS\nWe searched MEDLINE (1966-2003), CINAHL (1982-2003), Ovid Healthstar (1975-2003), EMBASE (1980-2003), Scisearch (1980-2003), the Cochrane Library, PUBMED related articles, personal files, abstract proceedings, and reference lists.\n\n\nMETHODS\nWe included studies of seriously ill patients considered for admission to an intensive care unit bed during periods of reduced availability. We had no restriction on study design. Studies were excluded if rationing was performed using a scoring system or protocol and if cost-effectiveness was the only outcome.\n\n\nMETHODS\nIn duplicate and independently, we performed data abstraction and quality assessment.\n\n\nRESULTS\nWe included ten observational studies. Hospital mortality rate was increased in patients refused intensive care unit admission vs. those admitted (odds ratio, 3.04; 95% confidence interval, 1.49-6.17). Factors associated with both intensive care unit bed refusal and increased mortality rate were increased age, severity of illness, and medical diagnosis. When intensive care unit beds were reduced, admitted patients were sicker, were less often admitted primarily for monitoring, and had a shorter intensive care unit length of stay, without other observed adverse effects.\n\n\nCONCLUSIONS\nThese studies suggest that patients who are perceived not to benefit from critical care are more often refused intensive care unit admission; refusal is associated with an increased risk of hospital death. During times of decreased critical bed availability, several factors, including age, illness severity, and medical diagnosis, are used to triage patients, although their relative importance is uncertain. Critical care bed rationing requires further investigation.",
+            "cosine": 0.6482880115509033,
+            "label": "Partially relevant"
+          },
+          {
+            "doc_index": 1,
+            "title": "We investigated the extent to which bed availability affects decision making in an intensive care unit (ICU). For 1,151 ICU patients, we determined the number of empty ICU beds available at times of admission and discharge and the outcome for those patients. For a randomly chosen group we assessed severity of illness. Patients admitted during times of bed shortage were, on average, more severely ill than those admitted when many beds were unoccupied. Patients discharged under crowded conditions were sicker and had a shorter stay than patients discharged when more beds were available. The relative risk of discharge was inversely related to empty bed availability, illness severity, and age. Bed availability had no effect on rates of death in the ICU, death after discharge, or readmission to the ICU. We conclude that physicians can effectively ration intensive care beds on a regular basis by altering admission and discharge decision making.",
+            "cosine": 0.7074917554855347,
             "label": "Relevant"
           },
           {
             "doc_index": 2,
-            "title": "A highly effective method for controlling the spread of an infectious disease is vaccination. However, there are many situations where vaccines are in limited supply. The ability to determine, under this constraint, a vaccination strategy which minimises the number of people that become infected over the course of a potential epidemic is essential. Two questions naturally arise: when is it best to allocate vaccines, and to whom should they be allocated? We address these questions in the context of metapopulation models of disease spread. We discover that in practice it is generally optimal to distribute all vaccines prophylactically, rather than withholding until infection is introduced. For small metapopulations, we provide a method for determining the optimal prophylactic allocation. As the optimal strategy becomes computationally intensive to obtain when the population size increases, we detail an approximation method to determine an approximately optimal vaccination scheme. We find that our approximate strategy is consistently at least as good as three strategies reported in the literature across a wide range of parameter values.",
-            "cosine": 0.7826564311981201,
-            "label": "Relevant"
+            "title": "To determine how physicians ration limited critical resources, we studied the allocation of intensive-care-unit (ICU) beds during a shortage caused by a lack of nurses. As the bed capacity of the medical ICU decreased from 18 to 8, the percentage of days on which one or more beds were available decreased from 95 to 55 per cent, and monthly admissions decreased from 122 to 95. Physicians responded by restricting ICU admissions to acutely ill patients and reducing the proportion of patients admitted primarily for monitoring. Among patients admitted because of chest pain, the proportion actually sustaining a myocardial infarction increased linearly with the restriction in bed capacity. Although more patients with myocardial infarction were admitted to non-intensive-care areas, there was no increase in mortality. In addition, physicians transferred patients out of the ICU sooner. There was no apparent withdrawal of care from dying patients. Our results suggest that physicians can respond to moderate resource limitations by more efficient use of intensive-care resources.",
+            "cosine": 0.630876898765564,
+            "label": "Partially relevant"
           }
         ]
       }

@@ -1,24 +1,6 @@
 {
   "results": [
     {
-      "query": "Automated systems interpreting chest scans to identify infectious lung inflammation",
-      "category": "Terminology Gap",
-      "sources": {
-        "LitSense2": [
-          "GraphCovidNet: A graph neural network based model for detecting COVID-19 from CT scans and X-rays of chest.",
-          "A Systematic Literature Review to Determine Gaps in Diagnosing Suspected Infection in Solid Organ Transplant Recipients.",
-          "Generative and Discriminative Learning for Lung X-Ray Analysis Based on Probabilistic Component Analysis."
-        ],
-        "PubMed": [],
-        "VectorSage": [
-          "Automatic definition of the central-chest lymph-node stations.",
-          "F-18 fluorodeoxyglucose chest uptake in lung inflammation and infection.",
-          "What did we learn from two decades of chest computed tomography in cystic fibrosis?"
-        ]
-      }
-    },
-   
-    {
       "query": "Linking vaccination uptake behavior with transmission dynamics to assess outbreak control",
       "category": "Multi-Hop Concept Queries",
       "sources": {
@@ -155,7 +137,6 @@
         ]
       }
     },
-  
     {
       "query": "Computational approaches identifying optimal vaccination allocation under limited supply.",
       "category": "Intervention Optimization Queries",
@@ -171,6 +152,109 @@
            "Optimised prophylactic vaccination in metapopulations."
         ]
       }
-    }    
+    }, 
+    {
+      "query": "People whose immune system gradually destroys the cells in their own thyroid gland tend to feel constantly tired and gain weight unexpectedly",
+      "category": "Terminology Gap",
+      "sources": {
+        "LitSense2": [
+          "Genetic diversity of 21 experimental chicken lines with diverse origins and genetic backgrounds.",
+          "Reactive natural kinds and varieties of dependence.",
+          "Seasonal Affective Disorder: An Overview of Assessment and Treatment Approaches."
+        ],
+        "PubMed": [],
+        "VectorSage": [
+          "The immune system which adversely alter thyroid functions: a review on the concept of autoimmunity.",
+          "Thyroid function and obesity.",
+          "The Thymus: A Forgotten, But Very Important Organ."
+        ]
+      }
+    }, 
+    {
+      "query": "What makes some patients with the same tumor type respond well to checkpoint blockade while others do not benefit at all?",
+      "category": "Terminology Gap",
+      "sources": {
+        "LitSense2": [
+          "Non-Small Cell Lung Cancer Metastatic Without Oncogenic Alterations.",
+          "High-throughput single-sell sequencing in cancer research.",
+          "Novel and potent MICA/B antibody is therapeutically effective in KRAS LKB1 mutant lung cancer models."
+        ],
+        "PubMed": [],
+        "VectorSage": [
+          "SCIB2, an antibody DNA vaccine encoding NY-ESO-1 epitopes, induces potent antitumor immunity which is further enhanced by checkpoint blockade.",
+          "The good, the bad, and the ugly: hyperprogression in cancer patients following immune checkpoint therapy.",
+          "Predicting Responses to Checkpoint Inhibitors in Lymphoma: Are We Up to the Standards of Solid Tumors?"
+        ]
+      }
+    }, 
+    {
+      "query": "Why do patients who initially respond to a targeted therapy eventually stop benefiting from it after several months of treatment?",
+      "category": "Terminology Gap",
+      "sources": {
+        "LitSense2": [
+          "Bone Microenvironment Changes in Latexin Expression Promote Chemoresistance. ",
+          "Prognostic Assessment of Interim F18-Fluorodeoxyglucose Positron Emission Tomography in Esophageal Cancer Treated With Chemoradiation With or Without Surgery. ",
+          "Recent developments and translational aspects in targeted therapy for metastatic breast cancer. "
+        ],
+        "PubMed": [],
+        "VectorSage": [
+          "Novel patterns of response under immunotherapy.",
+          "After the Women's Health Initiative: Postmenopausal women's experiences with discontinuing estrogen replacement therapy.",
+          "Correlates of basal insulin persistence among insulin-naïve people with type 2 diabetes: results from a multinational survey."
+        ]
+      }
+    }, 
+    {
+      "query": "How does having excess fat tissue alter the way the body handles sugar and increases risk of long-term complications?",
+      "category": "Terminology Gap",
+      "sources": {
+        "LitSense2": [
+          "Fasting Mimicking Diet for Metabolic Syndrome: A Narrative Review of Human Studies. ",
+          "Eating behavior patterns, metabolic parameters and circulating oxytocin levels in patients with obesity: an exploratory study.",
+          "Does Samoa Have Adequate Policies to Reduce Obesity and Obesity-Related Disease? "
+        ],
+        "PubMed": [],
+        "VectorSage": [
+          "Consequences of alcohol use in diabetics.",
+          "Sex differences in the regulation of body weight.",
+          "Mechanistically different effects of fat and sugar on insulin resistance, hypertension, and gut microbiota in rats."
+        ]
+      }
+    }, 
+    {
+      "query": "",
+      "category": "",
+      "sources": {
+        "LitSense2": [
+          "",
+          "",
+          ""
+        ],
+        "PubMed": [],
+        "VectorSage": [
+          "",
+          "",
+          ""
+        ]
+      }
+    }, 
+    {
+      "query": "",
+      "category": "",
+      "sources": {
+        "LitSense2": [
+          "",
+          "",
+          ""
+        ],
+        "PubMed": [],
+        "VectorSage": [
+          "",
+          "",
+          ""
+        ]
+      }
+    }
+
   ]
 }
