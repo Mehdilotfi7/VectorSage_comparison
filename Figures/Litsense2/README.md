@@ -1,28 +1,38 @@
 # LitSense 2.0: Failure Cases for Natural-Language Queries
 
-This note documents two practical limitations observed in LitSense 2.0 during our comparison experiments: failure to return results for some natural-language-style queries and inconsistency in returned results for the same query across attempts. LitSense 2.0 uses a two-phase retrieval design in which lexical matching is performed first and semantic reranking is applied only to the candidates retrieved in that first stage. If lexical candidate generation fails, the system returns no results. [page:1][page:2]
+This note documents two practical limitations observed in LitSense 2.0 during our comparison experiments: failure to return results for some natural-language-style queries and inconsistency in returned results for the same query across attempts. LitSense 2.0 uses a two-phase retrieval design in which lexical matching is performed first and semantic reranking is applied only to the candidates retrieved in that first stage. If lexical candidate generation fails, the system returns no results.
 
 ## Why this happens
 
-According to the LitSense 2.0 system description, sentence and passage retrieval begin with a lexical candidate-generation step, followed by semantic reranking using MedCPT. For sentence search, the system first requires 60% query-term overlap, then relaxes to 30%; for passage search, it begins at 30% and relaxes to 10%. If no items satisfy these thresholds, the system does not produce any results. [page:1][page:2]
+According to the LitSense 2.0 system description, sentence and passage retrieval begin with a lexical candidate-generation step, followed by semantic reranking using MedCPT. For sentence search, the system first requires 60% query-term overlap, then relaxes to 30%; for passage search, it begins at 30% and relaxes to 10%. If no items satisfy these thresholds, the system does not produce any results. 
 
-This design improves ranking quality when suitable lexical candidates exist, but it also means that semantic matching cannot rescue a query if the initial lexical stage fails. As a result, natural-language queries that are descriptive, indirect, or phrased differently from the terminology used in titles, abstracts, or indexed passages may return no results despite being conceptually meaningful. [page:1][page:2]
+This design improves ranking quality when suitable lexical candidates exist, but it also means that semantic matching cannot rescue a query if the initial lexical stage fails. As a result, natural-language queries that are descriptive, indirect, or phrased differently from the terminology used in titles, abstracts, or indexed passages may return no results despite being conceptually meaningful.
 
 ## Screenshot evidence
 
 ### Example 1: No results for an NLP-style query
 
 **Query:**  
-`[PASTE THE EXACT QUERY USED]`
+see the json file in data for quries.
 
 **Observed behavior:**  
 LitSense 2.0 returned no results.
 
 **Screenshot:**  
-![LitSense 2.0 no results for natural-language query](./Screenshot_1_LitSense_NCBI_NLM_NIH.png)
+![LitSense 2.0 no results for natural-language query](./Screenshot%20_1_LitSense_NCBI_NLM_NIH.png)
+**Screenshot:**  
+![LitSense 2.0 first run](./Screenshot%202%20LitSense%20-%20NCBI%20-%20NLM%20-%20NIH.png)
+
+**Run B:**  
+`[briefly describe changed results]`
+
+**Screenshot:**  
+![LitSense 2.0 second run](./Screenshot%203%20LitSense%20-%20NCBI%20-%20NLM%20-%20NIH.png)
 
 **Interpretation:**  
-This failure is consistent with the system architecture reported by the authors: semantic reranking is applied only after lexical candidate generation, so a query with weak lexical overlap to the indexed biomedical text can terminate before semantic evidence is used. [page:1][page:2]
+This failure is consistent with the system architecture reported by the authors: semantic reranking is applied only after lexical candidate generation, so a query with weak lexical overlap to the indexed biomedical text can terminate before semantic evidence is used. 
+
+
 
 ## Inconsistency across repeated use
 
@@ -35,13 +45,13 @@ This failure is consistent with the system architecture reported by the authors:
 `[briefly describe results, e.g. no results / a small set of results / different top-ranked items]`
 
 **Screenshot:**  
-`![LitSense 2.0 first run](./Litsense2/Screenshot 2 LitSense - NCBI - NLM - NIH.png)`
+![LitSense 2.0 first run](./Screenshot%202%20LitSense%20-%20NCBI%20-%20NLM%20-%20NIH.png)
 
 **Run B:**  
 `[briefly describe changed results]`
 
 **Screenshot:**  
-`![LitSense 2.0 second run](./Litsense2/Screenshot 3 LitSense - NCBI - NLM - NIH.png)`
+![LitSense 2.0 second run](./Screenshot%203%20LitSense%20-%20NCBI%20-%20NLM%20-%20NIH.png)
 
 **Interpretation:**  
 When the same query yields different outcomes across attempts, this suggests instability in practical retrieval behavior. In our evaluation context, such inconsistency is problematic because a retrieval system should respond reliably to identical information needs. While the LitSense 2.0 paper reports strong benchmark performance overall, its architecture still depends on a lexical-first candidate generation stage, which can make borderline natural-language queries sensitive to phrasing, indexing differences, or retrieval thresholds. [page:1][page:2]
